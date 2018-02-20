@@ -258,10 +258,6 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "CV"
-  url = "files/cv.pdf"
-  weight = 5
 
 # [[menu.main]]
   # name = "Teaching"

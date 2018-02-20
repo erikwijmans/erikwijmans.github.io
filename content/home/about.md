@@ -29,7 +29,7 @@ weight = 5
 
 +++
 
-# Biography
+# About Me
 
 I am a first year PhD student at the Georgia Institute of Technology studying computer science. I work closely with
 [Irfan Essa](http://prof.irfanessa.com), [Dhruv Batra](https://www.cc.gatech.edu/~dbatra/), and
@@ -39,6 +39,6 @@ tackling problems involving 3D perception and general scene understanding.
 
 As an undergraduate, I participated in a 3-2 engineering program with Juniata College and WUSTL.  While I was at WUSTL, I
 work with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
-worked with [Yinzhi Coa](http://www.yinzhicao.org)
+worked with [Yinzhi Cao](http://www.yinzhicao.org)
 
-
+{{% staticref "files/cv.pdf" %}}### CV{{% /staticref %}}
