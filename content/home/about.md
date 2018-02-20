@@ -41,3 +41,4 @@ As an undergraduate, I participated in a 3-2 engineering program with Juniata Co
 work with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
 worked with [Yinzhi Coa](http://www.yinzhicao.org)
 
+
