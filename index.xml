@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erik Wijmans on Erik Wijmans</title>
+    <link>http://wijmans.xyz/</link>
+    <description>Recent content in Erik Wijmans on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact</title>
+      <link>http://wijmans.xyz/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://wijmans.xyz/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amodal 3D Bounding Box Prediction</title>
+      <link>http://wijmans.xyz/project/3d-bbox-2017/</link>
+      <pubDate>Mon, 19 Feb 2018 23:24:45 -0500</pubDate>
+      
+      <guid>http://wijmans.xyz/project/3d-bbox-2017/</guid>
+      <description>&lt;p&gt;I initially set out to use &lt;a href=&#34;https://arxiv.org/abs/1612.00593&#34; target=&#34;_blank&#34;&gt;PointNet&lt;/a&gt;/&lt;a href=&#34;https://arxiv.org/abs/1706.02413&#34; target=&#34;_blank&#34;&gt;PointNet++&lt;/a&gt; to
+predict amodal 3D bounding boxes on point-clouds, utilizing the SUN RGB-D 3D dataset.  My approach was similar to that
+of Faster R-CNN.  However, I did not want to descritize the search space and therefore attempted to use the points in the
+point-clouds as anchors for the bounding boxes.  This approach ended up being too challenging for the network to easily learn.
+&lt;a href=&#34;https://arxiv.org/abs/1711.08488&#34; target=&#34;_blank&#34;&gt;Frustum PointNet&lt;/a&gt; presents a very interesting solution to this problem and leverages the 2D
+rgb image to descritize the search space.&lt;/p&gt;
+
+&lt;p&gt;During this project, I gained a deep understand of PointNets and wrote of own implement of
+&lt;a href=&#34;https://github.com/erikwijmans/Pointnet2_PyTorch&#34; target=&#34;_blank&#34;&gt;PointNet++ in PyTorch&lt;/a&gt; so I could learn PyTorch and its CUDA
+interoperability bridge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building Scale RGBD Alignment</title>
+      <link>http://wijmans.xyz/publication/building-scale-rgbd-alginment/</link>
+      <pubDate>Sat, 22 Jul 2017 23:10:51 -0500</pubDate>
+      
+      <guid>http://wijmans.xyz/publication/building-scale-rgbd-alginment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> (Cross-)Browser Machine Fingerprinting</title>
+      <link>http://wijmans.xyz/publication/cross-browser/</link>
+      <pubDate>Sun, 26 Feb 2017 23:19:41 -0500</pubDate>
+      
+      <guid>http://wijmans.xyz/publication/cross-browser/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
