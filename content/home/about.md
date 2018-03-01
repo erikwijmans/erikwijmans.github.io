@@ -40,7 +40,7 @@ tackling problems involving 3D perception and general scene understanding.
 
 As an undergraduate, I participated in a 3-2 engineering program with Juniata College and WUSTL.  While I was at WUSTL, I
 work with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
-worked with [Yinzhi Cao](http://www.yinzhicao.org)
+worked with [Yinzhi Cao](http://www.yinzhicao.org).
 
 {{% staticref "files/cv.pdf" %}}**CV**{{% /staticref %}}
 {{% staticref "files/resume.pdf" %}}**Resume**{{% /staticref %}}
