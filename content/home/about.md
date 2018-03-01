@@ -27,6 +27,7 @@ weight = 5
   institution = "Juniata College"
   year = 2017
 
+
 +++
 
 # About Me
@@ -41,4 +42,5 @@ As an undergraduate, I participated in a 3-2 engineering program with Juniata Co
 work with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
 worked with [Yinzhi Cao](http://www.yinzhicao.org)
 
-{{% staticref "files/cv.pdf" %}}### CV{{% /staticref %}}
+{{% staticref "files/cv.pdf" %}}**CV**{{% /staticref %}}
+{{% staticref "files/resume.pdf" %}}**Resume**{{% /staticref %}}
