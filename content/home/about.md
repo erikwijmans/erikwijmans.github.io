@@ -12,7 +12,8 @@ weight = 5
   interests = [
     "Computer Vision",
     "Machine Learning",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "EmbodiedAI"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -36,12 +37,16 @@ I am a PhD student at the Georgia Institute of Technology studying computer scie
 [Irfan Essa](http://prof.irfanessa.com) and [Dhruv Batra](https://www.cc.gatech.edu/~dbatra/).  I also have the
 pleasure of working closely with
 [Devi Parkih](https://www.cc.gatech.edu/~parikh/).  My research interests are
-primarily focused on computer vision and its applications to understanding.  In particular, I am interested in working on
-tackling problems involving 3D perception and general scene understanding.
+primarily focused on computer vision and its applications to artificial intelligence.
+One of my long-term research goals is to train robots as “embodied agents” in simulated environments, 
+due to challenges of training in the physical world, and then transfer them to reality
 
 
+In the summer of 2019, I will
+be an intern at FAIR working with [Manolis Savva](http://msavva.github.io) and continuing my on-going
+collaboration with FRL.
 In the summer of 2018, I was a research intern at facebook Reality Labs (FRL) and facebook AI Research (FAIR) working with
-[Julian Straub](http://people.csail.mit.edu/jstraub/) and Dhruv Batra.
+[Julian Straub](http://people.csail.mit.edu/jstraub/) and Dhruv Batra.  
 
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College](https://www.juniata.edu)
 and [Washington University in St. Louis (WUSTL)](https://wustl.edu).
