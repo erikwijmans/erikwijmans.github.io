@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>Habitat: A Platform for Embodied AI Research</title>
+      <link>http://wijmans.xyz/publication/ai-habitat/</link>
+      <pubDate>Mon, 25 Feb 2019 23:13:55 -0500</pubDate>
+      
+      <guid>http://wijmans.xyz/publication/ai-habitat/</guid>
+      <description>^ denotes equal contribution
+Read more about AI Habitat &amp;ndash; aihabitat.org
+Particpate in the Habitat Challenge &amp;ndash; facebookresearch/habitat-challenge
+Get started using the Habitat-API &amp;ndash; facebookresearch/habitat-api  and Habitat-Sim &amp;ndash; facebookresearch/habitat-sim</description>
+    </item>
+    
+    <item>
       <title>Building Scale RGBD Alignment</title>
       <link>http://wijmans.xyz/publication/building-scale-rgbd-alginment/</link>
       <pubDate>Sat, 22 Jul 2017 23:10:51 -0500</pubDate>

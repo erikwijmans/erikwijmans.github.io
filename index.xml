@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>Habitat: A Platform for Embodied AI Research</title>
+      <link>http://wijmans.xyz/publication/ai-habitat/</link>
+      <pubDate>Mon, 25 Feb 2019 23:13:55 -0500</pubDate>
+      
+      <guid>http://wijmans.xyz/publication/ai-habitat/</guid>
+      <description>&lt;p&gt;^ denotes equal contribution&lt;/p&gt;
+
+&lt;p&gt;Read more about AI Habitat &amp;ndash; &lt;a href=&#34;https://aihabitat.org&#34; target=&#34;_blank&#34;&gt;aihabitat.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Particpate in the Habitat Challenge &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-challenge&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-challenge&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Get started using the Habitat-API &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-api&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-api&lt;/a&gt; &lt;br/&gt;
+and Habitat-Sim &amp;ndash;
+&lt;a href=&#34;https://github.com/facebookresearch/habitat-sim&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-sim&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Amodal 3D Bounding Box Prediction</title>
       <link>http://wijmans.xyz/project/3d-bbox-2017/</link>
       <pubDate>Mon, 19 Feb 2018 23:24:45 -0500</pubDate>
