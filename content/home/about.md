@@ -45,8 +45,8 @@ due to challenges of training in the physical world, and then transfer them to r
 In the summer of 2019, I will
 be an intern at FAIR working with [Manolis Savva](http://msavva.github.io) and continuing my on-going
 collaboration with FRL.
-In the summer of 2018, I was a research intern at facebook Reality Labs (FRL) and facebook AI Research (FAIR) working with
-[Julian Straub](http://people.csail.mit.edu/jstraub/) and Dhruv Batra.  
+In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
+[Julian Straub](http://people.csail.mit.edu/jstraub/) and Dhruv Batra.
 
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College](https://www.juniata.edu)
 and [Washington University in St. Louis (WUSTL)](https://wustl.edu).
@@ -55,4 +55,3 @@ worked with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I sp
 worked with [Yinzhi Cao](http://www.yinzhicao.org).
 
 {{% staticref "files/cv.pdf" %}}**CV**{{% /staticref %}}
-{{% staticref "files/resume.pdf" %}}**Resume**{{% /staticref %}}
