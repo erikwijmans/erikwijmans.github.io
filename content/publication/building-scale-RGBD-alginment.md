@@ -30,7 +30,7 @@ abstract_short = "This paper presents a novel algorithm that utilizes a 2D floor
 image_preview = "cvpr17_teaser.jpg"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

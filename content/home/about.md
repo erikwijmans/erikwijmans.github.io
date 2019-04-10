@@ -13,7 +13,7 @@ weight = 5
     "Computer Vision",
     "Machine Learning",
     "Artificial Intelligence",
-    "EmbodiedAI"
+    "Embodied AI"
   ]
 
 # List your qualifications (such as academic degrees).

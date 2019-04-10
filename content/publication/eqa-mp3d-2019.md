@@ -1,7 +1,7 @@
 +++
 title = "Embodied Question Answering in Photorealistic Environments with Point Cloud Perception"
 date = 2019-04-05T19:04:11-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Erik Wijmans^", "Samyak Datta^", "Oleksandr Maksymets^", "Abhishek Das", "Georgia Gkioxari", "Stefan Lee", "Irfan Essa", "Devi Parikh", "Dhruv Batra"]
@@ -43,7 +43,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/1904.03461"
 url_code = ""
 url_dataset = ""
 url_project = ""
