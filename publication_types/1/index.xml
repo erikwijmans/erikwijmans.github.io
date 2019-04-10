@@ -6,11 +6,20 @@
     <description>Recent content in 1 on Erik Wijmans</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 22 Jul 2017 23:10:51 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 05 Apr 2019 19:04:11 -0400</lastBuildDate>
     
 	<atom:link href="http://wijmans.xyz/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Embodied Question Answering in Photorealistic Environments with Point Cloud Perception</title>
+      <link>http://wijmans.xyz/publication/eqa-mp3d-2019/</link>
+      <pubDate>Fri, 05 Apr 2019 19:04:11 -0400</pubDate>
+      
+      <guid>http://wijmans.xyz/publication/eqa-mp3d-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Building Scale RGBD Alignment</title>
