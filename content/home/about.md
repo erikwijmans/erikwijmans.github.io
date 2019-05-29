@@ -39,7 +39,7 @@ pleasure of working closely with
 [Devi Parkih](https://www.cc.gatech.edu/~parikh/).  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.
 One of my long-term research goals is to train robots as “embodied agents” in simulated environments, 
-due to challenges of training in the physical world, and then transfer them to reality
+due to challenges of training in the physical world, and then transfer them to reality.
 
 
 In the summer of 2019, I will
