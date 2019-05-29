@@ -36,7 +36,7 @@ weight = 5
 I am a PhD student at the Georgia Institute of Technology studying computer science. I am advised by
 [Irfan Essa](http://prof.irfanessa.com) and [Dhruv Batra](https://www.cc.gatech.edu/~dbatra/).  I also have the
 pleasure of working closely with
-[Devi Parkih](https://www.cc.gatech.edu/~parikh/).  My research interests are
+[Devi Parikh](https://www.cc.gatech.edu/~parikh/).  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.
 One of my long-term research goals is to train robots as “embodied agents” in simulated environments, 
 due to challenges of training in the physical world, and then transfer them to reality.
