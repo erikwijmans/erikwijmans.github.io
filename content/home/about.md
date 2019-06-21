@@ -54,4 +54,3 @@ While I was at WUSTL, I
 worked with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
 worked with [Yinzhi Cao](http://www.yinzhicao.org).
 
-{{% staticref "files/cv.pdf" %}}**CV**{{% /staticref %}}
