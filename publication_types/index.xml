@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types on Erik Wijmans</title>
-    <link>http://wijmans.xyz/publication_types/</link>
+    <link>https://wijmans.xyz/publication_types/</link>
     <description>Recent content in Publication_types on Erik Wijmans</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 05 Apr 2019 19:04:11 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2019 10:12:49 -0700</lastBuildDate>
     
-	<atom:link href="http://wijmans.xyz/publication_types/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wijmans.xyz/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>1</title>
-      <link>http://wijmans.xyz/publication_types/1/</link>
-      <pubDate>Fri, 05 Apr 2019 19:04:11 -0400</pubDate>
+      <title>4</title>
+      <link>https://wijmans.xyz/publication_types/4/</link>
+      <pubDate>Fri, 21 Jun 2019 10:12:49 -0700</pubDate>
       
-      <guid>http://wijmans.xyz/publication_types/1/</guid>
+      <guid>https://wijmans.xyz/publication_types/4/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>http://wijmans.xyz/publication_types/4/</link>
-      <pubDate>Fri, 21 Jun 2019 10:12:49 -0700</pubDate>
+      <title>1</title>
+      <link>https://wijmans.xyz/publication_types/1/</link>
+      <pubDate>Fri, 05 Apr 2019 19:04:11 -0400</pubDate>
       
-      <guid>http://wijmans.xyz/publication_types/4/</guid>
+      <guid>https://wijmans.xyz/publication_types/1/</guid>
       <description></description>
     </item>
     

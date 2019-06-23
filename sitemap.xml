@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
     
     <url>
     
-      <loc>http://wijmans.xyz/contact/</loc>
+      <loc>https://wijmans.xyz/contact/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +13,37 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/replica-2019/</loc>
+      <loc>https://wijmans.xyz/publication_types/4/</loc>
+      <lastmod>2019-06-21T10:12:49-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/</loc>
+      <lastmod>2019-06-21T10:12:49-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication_types/</loc>
+      <lastmod>2019-06-21T10:12:49-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication/replica-2019/</loc>
       <lastmod>2019-06-21T10:12:49-07:00</lastmod>
     </url>
     
@@ -23,7 +52,17 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/eqa-mp3d-2019/</loc>
+      <loc>https://wijmans.xyz/publication_types/1/</loc>
+      <lastmod>2019-04-05T19:04:11-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication/eqa-mp3d-2019/</loc>
       <lastmod>2019-04-05T19:04:11-04:00</lastmod>
     </url>
     
@@ -32,7 +71,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/ai-habitat/</loc>
+      <loc>https://wijmans.xyz/publication/ai-habitat/</loc>
       <lastmod>2019-02-25T23:13:55-05:00</lastmod>
     </url>
     
@@ -41,7 +80,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/building-scale-rgbd-alginment/</loc>
+      <loc>https://wijmans.xyz/publication/building-scale-rgbd-alginment/</loc>
       <lastmod>2017-07-22T23:10:51-05:00</lastmod>
     </url>
     
@@ -50,7 +89,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/cross-browser/</loc>
+      <loc>https://wijmans.xyz/publication/cross-browser/</loc>
       <lastmod>2017-02-26T23:19:41-05:00</lastmod>
     </url>
     
@@ -59,7 +98,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication/</loc>
+      <loc>https://wijmans.xyz/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,8 +107,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication_types/1/</loc>
-      <lastmod>2019-04-05T19:04:11-04:00</lastmod>
+      <loc>https://wijmans.xyz/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -78,46 +116,7 @@
     
     <url>
     
-      <loc>http://wijmans.xyz/publication_types/4/</loc>
-      <lastmod>2019-06-21T10:12:49-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://wijmans.xyz/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://wijmans.xyz/</loc>
-      <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://wijmans.xyz/publication_types/</loc>
-      <lastmod>2019-04-05T19:04:11-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://wijmans.xyz/tags/</loc>
+      <loc>https://wijmans.xyz/tags/</loc>
       <priority>0</priority>
     </url>
     
