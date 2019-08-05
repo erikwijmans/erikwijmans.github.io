@@ -10,13 +10,18 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Embodied AI",
     "Computer Vision",
     "Machine Learning",
     "Artificial Intelligence",
-    "Embodied AI"
   ]
 
 # List your qualifications (such as academic degrees).
+
+[[education.courses]]
+  course = "PhD, Computer Science"
+  institution = "Georgia Institute of Technology"
+  year = "2022 (Expected)"
 
 [[education.courses]]
   course = "Bachelor of Science, Computer Engineering, Summa Cum Laude"
@@ -34,23 +39,34 @@ weight = 5
 # About Me
 
 I am a PhD student at the Georgia Institute of Technology studying computer science. I am advised by
-[Irfan Essa](http://prof.irfanessa.com) and [Dhruv Batra](https://www.cc.gatech.edu/~dbatra/).  I also have the
+[Irfan Essa][IS] and [Dhruv Batra][DB].  I also have the
 pleasure of working closely with
-[Devi Parikh](https://www.cc.gatech.edu/~parikh/).  My research interests are
+[Devi Parikh][DP].  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.
 One of my long-term research goals is to train robots as “embodied agents” in simulated environments, 
-due to challenges of training in the physical world, and then transfer them to reality.
+due to challenges of training in the physical world, and transfer them to reality.
 
 
 In the summer of 2019, I will
-be an intern at FAIR working with [Manolis Savva](http://msavva.github.io) and continuing my on-going
+be an intern at FAIR working with [Manolis Savva][MS] and continuing my on-going
 collaboration with FRL.
 In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
-[Julian Straub](http://people.csail.mit.edu/jstraub/) and Dhruv Batra.
+[Julian Straub][JS] and [Dhruv Batra][DB].
 
-As an undergraduate, I participated in a 3-2 engineering program with [Juniata College](https://www.juniata.edu)
-and [Washington University in St. Louis (WUSTL)](https://wustl.edu).
+As an undergraduate, I participated in a 3-2 engineering program with [Juniata College][JC]
+and [Washington University in St. Louis (WUSTL)][WUSTL]:
 While I was at WUSTL, I
-worked with [Yasu Furukawa](http://www.cs.sfu.ca/~furukawa/) (now at SFU).  I spent a summer at Lehigh University and
-worked with [Yinzhi Cao](http://www.yinzhicao.org).
+worked with [Yasu Furukawa][YF] (now at SFU).  I spent a summer at Lehigh University and
+worked with [Yinzhi Cao][YC].
+
+
+[IS]: http://prof.irfanessa.com
+[DB]: https://www.cc.gatech.edu/~dbatra/
+[DP]: https://www.cc.gatech.edu/~parikh/
+[MS]: http://msavva.github.io
+[JS]: http://people.csail.mit.edu/jstraub/
+[JC]: https://www.juniata.edu
+[WUSTL]: https://wustl.edu
+[YF]: http://www.cs.sfu.ca/~furukawa/
+[YC]: http://www.yinzhicao.org
 
