@@ -39,16 +39,18 @@ weight = 5
 # About Me
 
 I am a PhD student at the Georgia Institute of Technology studying computer science. I am advised by
-[Irfan Essa][IS] and [Dhruv Batra][DB].  I also have the
+[Irfan Essa][IS] and [Dhruv Batra][DB] and have the
 pleasure of working closely with
 [Devi Parikh][DP].  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.
-One of my long-term research goals is to train robots as “embodied agents” in simulated environments, 
-due to challenges of training in the physical world, and transfer them to reality.
+My long-term research goal is to develop fundamental techniques, algorithms, 
+and large-scale systems for robotic assistants (i.e. Alexa with eyes and limbs).
+My work focuses on training virtual robots (embodied agents) in simulation and transferring the skills learned to reality
+to overcome the challenges of real-world training (its slow, and expensive).
 
 
-In the summer of 2019, I will
-be an intern at FAIR working with [Manolis Savva][MS] and continuing my on-going
+I am currently an
+intern at FAIR, working with [Manolis Savva][MS] and continuing my on-going
 collaboration with FRL.
 In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
 [Julian Straub][JS] and [Dhruv Batra][DB].
@@ -56,7 +58,7 @@ In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) an
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College][JC]
 and [Washington University in St. Louis (WUSTL)][WUSTL]:
 While I was at WUSTL, I
-worked with [Yasu Furukawa][YF] (now at SFU).  I spent a summer at Lehigh University and
+worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer at Lehigh University where I
 worked with [Yinzhi Cao][YC].
 
 
