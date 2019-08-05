@@ -15,11 +15,11 @@ authors = ["Manolis Savva^", "Abhishek Kadian^", "Oleksandr Maksymets^", "Yili Z
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["4"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "arXiv preprint arXiv"
-publication_short = "arXiv"
+publication = "ICCV, **Oral**"
+publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "We present Habitat, a new platform for the development of embodied artificial intelligence (AI). Training robots in the real world is slow, dangerous, expensive, and not easily reproducible. We aim to support a complementary approach -- training embodied AI agents (virtual robots) in photorealistic 3D simulation and transferring the learned skills to reality.<br/> The 'software stack' for training embodied agents involves  _datasets_ providing 3D assets,  _simulators_ that render these assets and simulate agents, and _tasks_ that define goals and evaluation metrics, thus enabling controlled and reproducible assessment of scientific progress. We aim to standardize this entire stack by  contributing specific instantiations at each level: unified support for scanned and modelled 3D scene datasets, a new simulation engine (Habitat-Sim), and a modular API (Habitat-API).<br/>  The Habitat architecture and implementation combine modularity and high performance. For example, when rendering a realistic scanned scene from the Matterport3D dataset, habitatsim achieves several thousand frames per second (fps) running single-threaded and can reach over 10,000 fps multi-process on a single GPU.<br/> We also describe the Habitat Challenge, an autonomous navigation challenge that aims to benchmark and accelerate progress in embodied AI."
