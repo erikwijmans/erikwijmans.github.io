@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erik Wijmans on Erik Wijmans</title>
@@ -6,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 10:12:49 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -42,9 +43,7 @@
       <pubDate>Mon, 25 Feb 2019 23:13:55 -0500</pubDate>
       
       <guid>https://wijmans.xyz/publication/ai-habitat/</guid>
-      <description>&lt;p&gt;^ denotes equal contribution&lt;/p&gt;
-
-&lt;p&gt;Read more about AI Habitat &amp;ndash; &lt;a href=&#34;https://aihabitat.org&#34; target=&#34;_blank&#34;&gt;aihabitat.org&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Read more about AI Habitat &amp;ndash; &lt;a href=&#34;https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/&#34; target=&#34;_blank&#34;&gt;ai.facebook.com&lt;/a&gt; and &lt;a href=&#34;https://aihabitat.org&#34; target=&#34;_blank&#34;&gt;aihabitat.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Particpate in the Habitat Challenge &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-challenge&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-challenge&lt;/a&gt;&lt;/p&gt;
 

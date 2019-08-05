@@ -21,17 +21,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Habitat: A Platform for Embodied AI Research</title>
-      <link>https://wijmans.xyz/publication/ai-habitat/</link>
-      <pubDate>Mon, 25 Feb 2019 23:13:55 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/ai-habitat/</guid>
-      <description>^ denotes equal contribution
-Read more about AI Habitat &amp;ndash; aihabitat.org
-Particpate in the Habitat Challenge &amp;ndash; facebookresearch/habitat-challenge
-Get started using the Habitat-API &amp;ndash; facebookresearch/habitat-api  and Habitat-Sim &amp;ndash; facebookresearch/habitat-sim</description>
-    </item>
-    
   </channel>
 </rss>
