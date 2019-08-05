@@ -4,7 +4,7 @@ date = 2019-02-25T23:13:55-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Manolis Savva^", "Abhishek Kadian^", "Oleksandr Maksymets^", "Yili Zhao", "**Erik Wijmans**", "Bhavana Jain", "Julian Straub", "Jia Liu", "Vladlen Koltun", "Jitendra Malik", "Devi Parikh", "Dhruv Batra"]
+authors = ["Manolis Savva&ast;", "Abhishek Kadian&ast;", "Oleksandr Maksymets&ast;", "Yili Zhao", "**Erik Wijmans**", "Bhavana Jain", "Julian Straub", "Jia Liu", "Vladlen Koltun", "Jitendra Malik", "Devi Parikh", "Dhruv Batra"]
 
 # Publication type.
 # Legend:
@@ -70,10 +70,8 @@ image = "habitat_logo_text.svg"
 caption = ""
 
 +++
-^ denotes equal contribution
 
-
-Read more about AI Habitat -- [aihabitat.org](https://aihabitat.org)
+Read more about AI Habitat -- [ai.facebook.com](https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/) and [aihabitat.org](https://aihabitat.org)
 
 Particpate in the Habitat Challenge -- [facebookresearch/habitat-challenge](https://github.com/facebookresearch/habitat-challenge)
 
