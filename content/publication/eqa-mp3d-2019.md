@@ -18,7 +18,7 @@ authors = ["**Erik Wijmans**&ast;", "Samyak Datta&ast;", "Oleksandr Maksymets&as
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "CVPR, **Oral**"
+publication = "Computer Vision and Pattern Recognition (CVPR), **Oral** talk: top 288 of 5160 submissions = top-5.5%"
 publication_short = ""
 
 # Abstract and optional shortened version.

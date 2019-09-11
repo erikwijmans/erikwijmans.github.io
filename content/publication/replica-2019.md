@@ -26,7 +26,7 @@ abstract = "We introduce Replica, a dataset of 18 highly photo-realistic 3D indo
 abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "replica_tease.png"
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -65,7 +65,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "replica_tease.png"
 caption = ""
 
 +++

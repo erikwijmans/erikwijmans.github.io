@@ -1,6 +1,6 @@
 +++
 title = "Habitat: A Platform for Embodied AI Research"
-date = 2019-02-25T23:13:55-05:00
+date = 2019-04-25T23:13:55-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,7 +18,7 @@ authors = ["Manolis Savva&ast;", "Abhishek Kadian&ast;", "Oleksandr Maksymets&as
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ICCV, **Oral**"
+publication = "International Conference on Computer Vision (ICCV), **Oral** talk: top 187 of 4303 submissions = top-4.3%"
 publication_short = ""
 
 # Abstract and optional shortened version.
