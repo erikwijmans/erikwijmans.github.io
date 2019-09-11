@@ -49,7 +49,7 @@ My work focuses on training virtual robots (embodied agents) in simulation and t
 to overcome the challenges of real-world training (its slow, and expensive).
 
 
-I am currently an
+In the summer of 2019, I was an
 intern at FAIR, working with [Manolis Savva][MS] and continuing my on-going
 collaboration with FRL.
 In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
