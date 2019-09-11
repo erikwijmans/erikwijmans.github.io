@@ -24,18 +24,36 @@
     <item>
       <title>Selected Publications</title>
       <link>https://wijmans.xyz/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://wijmans.xyz/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Publications</title>
       <link>https://wijmans.xyz/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://wijmans.xyz/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Press Coverage</title>
+      <link>https://wijmans.xyz/home/press/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/home/press/</guid>
+      <description> facebook AI blog post about Habitat Tech@facebook blog post about the Replica Dataset MIT Technology Review story about Habitat and the Replica Dataset TechCrunch story about Habitat and the Replica Dataset engadget story about Habitat and the Replica Dataset Tech Xplore story about Habitat and the Replica Dataset  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://wijmans.xyz/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wijmans.xyz/home/contact/</guid>
       <description></description>
     </item>
     
