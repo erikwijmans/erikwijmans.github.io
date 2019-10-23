@@ -7,7 +7,7 @@
     {{ .Scratch.Set "image" .Params.header.image }}
   {{ end }}
   
-   <div class="row display-flex">
+   <div class="row align-items-center">
 
     {{ if .Scratch.Get "image" }}
     <div class="col-sm-6">
@@ -41,7 +41,7 @@
   </div>
   </div>
   {{ if .Scratch.Get "image" }}
-  <div class="col-sm-5">
+  <div class="col-sm-6">
     <a href="{{ .Permalink }}">
       <img src="{{ "/img/" | relURL }}{{ .Scratch.Get "image" }}" class="pub-banner" itemprop="image">
     </a>
