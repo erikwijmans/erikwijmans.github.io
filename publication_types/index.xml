@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 10:12:49 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 23:13:55 -0500</lastBuildDate>
     
 	<atom:link href="https://wijmans.xyz/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>4</title>
-      <link>https://wijmans.xyz/publication_types/4/</link>
-      <pubDate>Fri, 21 Jun 2019 10:12:49 -0700</pubDate>
-      
-      <guid>https://wijmans.xyz/publication_types/4/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>1</title>
@@ -27,6 +18,15 @@
       <pubDate>Thu, 25 Apr 2019 23:13:55 -0500</pubDate>
       
       <guid>https://wijmans.xyz/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>https://wijmans.xyz/publication_types/4/</link>
+      <pubDate>Fri, 21 Jun 2019 10:12:49 -0700</pubDate>
+      
+      <guid>https://wijmans.xyz/publication_types/4/</guid>
       <description></description>
     </item>
     
