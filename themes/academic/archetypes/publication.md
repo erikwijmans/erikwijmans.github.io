@@ -19,6 +19,7 @@ publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
 publication = ""
+oral = ""
 publication_short = ""
 
 # Abstract and optional shortened version.

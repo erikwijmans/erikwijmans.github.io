@@ -19,6 +19,7 @@ publication_types = ["4"]
 
 # Publication name and optional abbreviated version.
 publication = "arXiv"
+oral = ""
 publication_short = ""
 
 # Abstract and optional shortened version.

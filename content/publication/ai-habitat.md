@@ -18,7 +18,8 @@ authors = ["Manolis Savva&ast;", "Abhishek Kadian&ast;", "Oleksandr Maksymets&as
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "International Conference on Computer Vision (ICCV), **Oral** talk: top 187 of 4303 submissions = top-4.3%"
+publication = "International Conference on Computer Vision (ICCV)"
+oral = "top 187 of 4303 submissions = top-4.3%"
 publication_short = ""
 
 # Abstract and optional shortened version.

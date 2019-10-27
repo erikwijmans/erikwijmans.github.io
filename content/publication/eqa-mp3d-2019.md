@@ -18,7 +18,8 @@ authors = ["**Erik Wijmans**&ast;", "Samyak Datta&ast;", "Oleksandr Maksymets&as
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Computer Vision and Pattern Recognition (CVPR), **Oral** talk: top 288 of 5160 submissions = top-5.5%"
+publication = "Computer Vision and Pattern Recognition (CVPR)"
+oral = "top 288 of 5160 submissions = top-5.5%"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -47,8 +48,8 @@ url_preprint = "https://arxiv.org/abs/1904.03461"
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
-url_video = ""
+url_slides = "https://embodiedqa.org/slides/eqa_matterport.slides.pdf"
+url_video = "https://youtu.be/Je5LlZlqUt8"
 url_poster = ""
 url_source = ""
 

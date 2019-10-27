@@ -1,0 +1,31 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $pubs_len := len (where $.Site.RegularPages "Type" "press") }}
+
+<!-- Publications widget -->
+<div class="row">
+  <div class="col-xs-12 col-md-3 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-xs-12 col-md-9">
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+
+    {{ range $press := (where $.Site.RegularPages "Type" "press") }}
+    <div class="row press-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="col-xs-3 vcenter">
+        <a href="{{ $press.Params.article_url }}">
+          <img src={{ "/img/" | relURL }}{{ $press.Params.image }} itemprop="image" class="press-logo" align="left">
+        </a>
+      </div>
+      <div class="col-xs-8 vcenter">
+        <a href="{{ $press.Params.article_url }}"> 
+          {{ $press.Params.site_title | markdownify }} 
+        </a>
+        {{ $press.Params.rest | markdownify }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</div>

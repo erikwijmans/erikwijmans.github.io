@@ -59,7 +59,7 @@ As an undergraduate, I participated in a 3-2 engineering program with [Juniata C
 and [Washington University in St. Louis (WUSTL)][WUSTL]:
 While I was at WUSTL, I
 worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer at Lehigh University where I
-worked with [Yinzhi Cao][YC].
+worked with [Yinzhi Cao][YC] (now at JHU).
 
 
 [IS]: http://prof.irfanessa.com
