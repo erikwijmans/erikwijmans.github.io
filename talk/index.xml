@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Erik Wijmans</title>
+    <link>https://wijmans.xyz/talk/</link>
+    <description>Recent content in Talks on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 19 Jul 2019 14:45:00 -0900</lastBuildDate>
+    
+	<atom:link href="https://wijmans.xyz/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Embodied Question Answering in Photorealistic Environments with Point Cloud Perception</title>
+      <link>https://wijmans.xyz/talk/eqa-matterport-cvpr19/</link>
+      <pubDate>Fri, 19 Jul 2019 14:45:00 -0900</pubDate>
+      
+      <guid>https://wijmans.xyz/talk/eqa-matterport-cvpr19/</guid>
+      <description>Oral presentation at Computer Vision and Pattern Recognition (CVPR) 2019 for Embodied Question Answering in Photorealistic Environments with Point Cloud Perception</description>
+    </item>
+    
+  </channel>
+</rss>

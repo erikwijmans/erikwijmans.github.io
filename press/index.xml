@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Press Coverage on Erik Wijmans</title>
+    <link>https://wijmans.xyz/press/</link>
+    <description>Recent content in Press Coverage on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wijmans.xyz/press/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forbes Ai Hab</title>
+      <link>https://wijmans.xyz/press/forbes-ai-hab/</link>
+      <pubDate>Sun, 27 Oct 2019 17:58:56 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/forbes-ai-hab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Xplore Ai Hab</title>
+      <link>https://wijmans.xyz/press/tech-xplore-ai-hab/</link>
+      <pubDate>Sun, 27 Oct 2019 17:56:21 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/tech-xplore-ai-hab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engadget Ai Had</title>
+      <link>https://wijmans.xyz/press/engadget-ai-had/</link>
+      <pubDate>Sun, 27 Oct 2019 17:52:58 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/engadget-ai-had/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techcrunch Ai Hab</title>
+      <link>https://wijmans.xyz/press/techcrunch-ai-hab/</link>
+      <pubDate>Sun, 27 Oct 2019 17:50:53 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/techcrunch-ai-hab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mit Tech Ai Hab</title>
+      <link>https://wijmans.xyz/press/mit-tech-ai-hab/</link>
+      <pubDate>Sun, 27 Oct 2019 17:47:11 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/mit-tech-ai-hab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech at Ai Hab</title>
+      <link>https://wijmans.xyz/press/tech-at-ai-hab/</link>
+      <pubDate>Sun, 27 Oct 2019 17:44:56 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/tech-at-ai-hab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fb Ai Habitat</title>
+      <link>https://wijmans.xyz/press/fb-ai-habitat/</link>
+      <pubDate>Sun, 27 Oct 2019 17:00:26 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/press/fb-ai-habitat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

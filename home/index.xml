@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Erik Wijmans</title>
+    <link>https://wijmans.xyz/home/</link>
+    <description>Recent content in Homes on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wijmans.xyz/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wijmans.xyz/home/about/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wijmans.xyz/home/about/</guid>
+      <description>About Me I am a PhD student at the Georgia Institute of Technology studying computer science. I am advised by Irfan Essa and Dhruv Batra and have the pleasure of working closely with Devi Parikh. My research interests are primarily focused on computer vision and its applications to artificial intelligence. My long-term research goal is to develop fundamental techniques, algorithms, and large-scale systems for robotic assistants (i.e. Alexa with eyes and limbs).</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://wijmans.xyz/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://wijmans.xyz/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://wijmans.xyz/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wijmans.xyz/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Press Coverage</title>
+      <link>https://wijmans.xyz/home/press/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/home/press/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://wijmans.xyz/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wijmans.xyz/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
