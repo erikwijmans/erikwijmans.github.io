@@ -1,5 +1,5 @@
 +++
-title = "Building Scale RGBD Alignment"
+title = "Exploiting 2D Floorplan for Building-scale Panorama RGB-D Alignment"
 date = 2017-07-22T23:10:51-05:00
 draft = false
 

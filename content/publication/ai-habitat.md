@@ -15,7 +15,7 @@ authors = ["Manolis Savva&ast;", "Abhishek Kadian&ast;", "Oleksandr Maksymets&as
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "International Conference on Computer Vision (ICCV)"

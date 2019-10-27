@@ -15,7 +15,7 @@ authors = ["Julian Straub", "Thomas Whelan", "Lingni Ma", "Yufan Chen", "**Erik 
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["4"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "arXiv"

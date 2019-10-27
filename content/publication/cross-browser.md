@@ -15,7 +15,7 @@ authors = ["Yinzhi Cao", "Song Li", "**Erik Wijmans**"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Network and Distributed System Security Symposium (NDSS)"

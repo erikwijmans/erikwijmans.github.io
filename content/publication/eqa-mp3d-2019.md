@@ -15,7 +15,7 @@ authors = ["**Erik Wijmans**&ast;", "Samyak Datta&ast;", "Oleksandr Maksymets&as
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Computer Vision and Pattern Recognition (CVPR)"

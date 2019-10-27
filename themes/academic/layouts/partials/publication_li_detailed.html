@@ -10,13 +10,13 @@
    <div class="row">
 
     {{ if .Scratch.Get "image" }}
-    <div class="col-xs-12 col-md-8 vcenter center-block">
+    <div class="col-xs-12 col-md-8 vcenter">
     {{ else }}
-    <div class="col-xs-12 col-md-12 vcenter center-block">
+    <div class="col-xs-12 col-md-12 vcenter">
     {{ end }}
 
     <h3 class="article-title" itemprop="name">
-      <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
+      <a href="{{ .Permalink }}" itemprop="url">{{ .Title | markdownify }}</a>
     </h3>
 
     <div style="vertical-align: middle;">

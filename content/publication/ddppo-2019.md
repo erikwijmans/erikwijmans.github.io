@@ -1,10 +1,10 @@
 +++
-title = "Decentralized Distributed PPO: Mastering PointGoal Navigation"
+title = "Decentralized Distributed PPO:<br/> Solving PointGoal Navigation"
 date = 2019-09-26T16:03:24-04:00
 draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Erik Wijmans, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, Devi Parikh, Manolis Savva, Dhruv Batra"]
+authors = ["**Erik Wijmans**, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, Devi Parikh, Manolis Savva, Dhruv Batra"]
 
 # Publication type.
 # Legend:
@@ -15,7 +15,7 @@ authors = ["Erik Wijmans, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, D
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["4"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "arXiv"
@@ -24,7 +24,7 @@ publication_short = ""
 # Abstract and optional shortened version.
 
 abstract = "We present Decentralized Distributed Proximal Policy Optimization (DD-PPO), a method for distributed reinforcement learning in resource-intensive simulated environments. DD-PPO is distributed (uses multiple machines), decentralized (lacks a centralized server), and synchronous (no computation is ever 'stale'), making it conceptually simple and easy to implement. In our experiments on training virtual robots to navigate in Habitat-Sim, DD-PPO exhibits near-linear scaling -- achieving a speedup of 107x on 128 GPUs over a serial implementation. We leverage this scaling to train an agent for 2.5 Billion steps of experience (the equivalent of 80 years of human experience) -- over 6 months of GPU-time training in under 3 days of wall-clock time with 64 GPUs. <br/> This massive-scale training not only sets the state of art on Habitat Autonomous Navigation Challenge 2019, but essentially 'solves' the task -- near-perfect autonomous navigation in an unseen environment without access to a map, directly from an RGB-D camera and a GPS+Compass sensor.  Fortuitously, error vs computation exhibits a power-law-like distribution; thus, 90% of peak performance is obtained relatively early (at 100 million steps) and relatively cheaply (under 1 day with 8 GPUs). Finally, we show that the scene understanding and navigation policies learned can be transferred to other navigation tasks -- the analog of 'ImageNet pre-training + task-specific fine-tuning' for embodied AI. Our model outperforms ImageNet pre-trained CNNs on these transfer tasks and can serve as a universal resource (all models + code will be publicly available)."
-abstract_short = "Hi"
+abstract_short = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -66,7 +66,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "ddppo_teaser.svg"
+image = "pointnav_fig_v2.png"
 caption = ""
 
 +++

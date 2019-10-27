@@ -171,7 +171,7 @@ defaultContentLanguageInSubdir = false
   # Configuration of talk pages.
   [params.talks]
     # Show talk time?
-    time = true
+    time = false
 
   # Configuration of publication pages.
   [params.publications]
@@ -257,12 +257,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Press"
   url = "#press"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Talks"
   url = "#talks"
-  weight = 4
+  weight = 3
 
 
 # [[menu.main]]
