@@ -12,6 +12,12 @@
  *  Core
  **************************************************/
 
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
@@ -112,7 +118,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1.0rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -629,6 +635,7 @@ article {
 }
 
 .article-title {
+  margin-top: 0rem;
   font-size: 1.75rem;
 }
 
@@ -713,6 +720,22 @@ article .article-metadata {
 }
 
 /*************************************************
+ *  Press
+ **************************************************/
+.press-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.press-list-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*************************************************
  *  Publications
  **************************************************/
 
@@ -725,7 +748,7 @@ article .article-metadata {
 .pub-banner {
   max-width: 100%;
   height: auto;
-  max-height: 50%;
+  max-height: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -746,17 +769,17 @@ article .article-metadata {
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #3170A5;
 }
 
 .pub-list-item .pub-publication {
   color: #090;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .pub-list-item .pub-links {
-  padding-top: 10px;
+  padding-top: 0.9rem;
 }
 
 #container-publications {
@@ -832,8 +855,8 @@ article .article-metadata {
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
   border: 1px solid rgba(0,0,0,.09);
   border-radius: 3px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
+  margin-top: 10px;
+  padding: 10px 15px 10px 15px;
 }
 
 .card-simple:first-of-type {
