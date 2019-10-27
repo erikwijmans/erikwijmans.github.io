@@ -7,16 +7,17 @@
     {{ .Scratch.Set "image" .Params.header.image }}
   {{ end }}
   
-  <h3 class="article-title" itemprop="name">
-    <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
-  </h3>
-   <div class="row display-flex">
+   <div class="row align-items-center">
 
     {{ if .Scratch.Get "image" }}
     <div class="col-sm-6">
     {{ else }}
     <div class="col-sm-12">
     {{ end }}
+
+    <h3 class="article-title" itemprop="name">
+      <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
+    </h3>
 
     <div style="vertical-align: middle;">
     <div class="pub-authors" itemprop="author">
@@ -40,7 +41,7 @@
   </div>
   </div>
   {{ if .Scratch.Get "image" }}
-  <div class="col-sm-5">
+  <div class="col-sm-6">
     <a href="{{ .Permalink }}">
       <img src="{{ "/img/" | relURL }}{{ .Scratch.Get "image" }}" class="pub-banner" itemprop="image">
     </a>
