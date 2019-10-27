@@ -5,7 +5,7 @@ draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#time_start = 2019-10-27T16:37:00+09:00
+time_start = 2019-07-19  # Schedule page publish date.
 #time_end = 2019-10-27T16:37:00+09:00
 
 # Abstract and optional shortened version.
