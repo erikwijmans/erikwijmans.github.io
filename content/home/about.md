@@ -56,7 +56,7 @@ In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) an
 [Julian Straub][JS] and [Dhruv Batra][DB].
 
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College][JC]
-and [Washington University in St. Louis (WUSTL)][WUSTL]:
+and [Washington University in St. Louis (WUSTL)][WUSTL].
 While I was at WUSTL, I
 worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer at Lehigh University where I
 worked with [Yinzhi Cao][YC] (now at JHU).
