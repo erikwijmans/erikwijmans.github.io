@@ -99,13 +99,18 @@
       <pubDate>Thu, 25 Apr 2019 23:13:55 -0500</pubDate>
       
       <guid>https://wijmans.xyz/publication/ai-habitat/</guid>
-      <description>&lt;p&gt;Read more about AI Habitat &amp;ndash; &lt;a href=&#34;https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/&#34; target=&#34;_blank&#34;&gt;ai.facebook.com&lt;/a&gt; and &lt;a href=&#34;https://aihabitat.org&#34; target=&#34;_blank&#34;&gt;aihabitat.org&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;More about AI Habitat &amp;ndash; &lt;a href=&#34;https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/&#34; target=&#34;_blank&#34;&gt;ai.facebook.com&lt;/a&gt; and &lt;a href=&#34;https://aihabitat.org&#34; target=&#34;_blank&#34;&gt;aihabitat.org&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Particpate in the Habitat Challenge &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-challenge&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-challenge&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Particpate in the Habitat Challenge &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-challenge&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-challenge&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Get started using the Habitat-API &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-api&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-api&lt;/a&gt; &lt;br/&gt;
-and Habitat-Sim &amp;ndash;
-&lt;a href=&#34;https://github.com/facebookresearch/habitat-sim&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-sim&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Getting started&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Habitat-API &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-api&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-api&lt;/a&gt; &lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Habitat-Sim &amp;ndash; &lt;a href=&#34;https://github.com/facebookresearch/habitat-sim&#34; target=&#34;_blank&#34;&gt;facebookresearch/habitat-sim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
