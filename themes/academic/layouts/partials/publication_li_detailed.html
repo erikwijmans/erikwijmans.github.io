@@ -33,12 +33,20 @@
       {{- .Params.publication | markdownify -}},&nbsp;
       {{- end -}}
       {{- .Date.Format "2006" -}}.
-      {{ if .Params.oral }}
-      <br/>
-      {{- "**Oral** talk: " | markdownify -}}&nbsp; 
-      {{- .Params.oral | markdownify -}}
-      {{- end -}}
     </div>
+
+    {{ if .Params.oral }}
+      <div class="pub-publication">
+        {{- "Oral talk: " | markdownify -}}&nbsp; 
+        {{- .Params.oral | markdownify -}}
+      </div>
+    {{- end -}}
+
+    {{ if .Params.awards }}
+      <div class="pub-awards">
+        {{ .Params.awards | markdownify }}
+      </div>
+    {{ end }}
 
     <div class="pub-links">
       {{ partial "publication_links" (dict "content" . "is_list" 1) }}
