@@ -73,10 +73,10 @@ caption = ""
 
 +++
 
-Read more about AI Habitat -- [ai.facebook.com](https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/) and [aihabitat.org](https://aihabitat.org)
+* More about AI Habitat -- [ai.facebook.com](https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/) and [aihabitat.org](https://aihabitat.org)
 
-Particpate in the Habitat Challenge -- [facebookresearch/habitat-challenge](https://github.com/facebookresearch/habitat-challenge)
+* Particpate in the Habitat Challenge -- [facebookresearch/habitat-challenge](https://github.com/facebookresearch/habitat-challenge)
 
-Get started using the Habitat-API -- [facebookresearch/habitat-api](https://github.com/facebookresearch/habitat-api) <br/>
-and Habitat-Sim --
-[facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim)
+* Getting started
+    * Habitat-API -- [facebookresearch/habitat-api](https://github.com/facebookresearch/habitat-api) <br/>
+    * Habitat-Sim -- [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim)

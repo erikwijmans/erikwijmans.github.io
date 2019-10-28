@@ -337,7 +337,7 @@ a[data-fancybox] img {
 
 .home-section {
   background-color: {{ .Get "home_section_odd" }};
-  padding: 110px 0 110px 0;
+  padding: 50px 0 50px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -742,9 +742,10 @@ article .article-metadata {
 }
 
 .pub-banner {
+  width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 90%;
+  max-height: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -782,7 +783,7 @@ article .article-metadata {
 }
 
 .pub-list-item .pub-links {
-  padding-top: 0.9rem;
+  padding-top: 0.5rem;
 }
 
 #container-publications {
