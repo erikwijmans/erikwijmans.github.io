@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awards on Erik Wijmans</title>
+    <link>https://wijmans.xyz/award/</link>
+    <description>Recent content in Awards on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wijmans.xyz/award/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-20 Scholar Award fellowship from the Achievement Rewards for College Scientists (ARCS) Foundation</title>
+      <link>https://wijmans.xyz/award/arcs-19/</link>
+      <pubDate>Sun, 03 Nov 2019 16:08:35 +0900</pubDate>
+      
+      <guid>https://wijmans.xyz/award/arcs-19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
