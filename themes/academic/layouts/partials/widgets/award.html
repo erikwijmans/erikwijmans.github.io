@@ -1,6 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
-{{ $pubs_len := len (where $.Site.RegularPages "Type" "press") }}
+{{ $pubs_len := len (where $.Site.RegularPages "Type" "award") }}
 
 <!-- Publications widget -->
 <div class="row">
@@ -11,16 +11,21 @@
   <div class="col-xs-12 col-md-9">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
-    {{ range $press := (where $.Site.RegularPages "Type" "press") }}
+    {{ range $award := (where $.Site.RegularPages "Type" "award") }}
     <div class="row press-list-item" itemscope itemtype="http://schema.org/CreativeWork">
       <div class="col-xs-3 vcenter">
-        <a href="{{ $press.Params.article_url }}">
-          <img src={{ "/img/" | relURL }}{{ $press.Params.image }} itemprop="image" class="press-logo" align="left">
+        <a href="{{ $award.Params.giver_url }}">
+          <img src={{ "/img/" | relURL }}{{ $award.Params.image }} itemprop="image" class="press-logo" align="left">
         </a>
       </div>
       <div class="col-xs-8 vcenter">
-        <a href="{{ $press.Params.article_url }}">{{ $press.Params.site_title | markdownify }}</a>
-        {{ $press.Params.rest | markdownify }}
+        {{ $award.Params.title | markdownify }}
+
+        {{ if $award.Params.announcement_url }}
+          <a href="{{ $award.Params.announcement_url }}">
+            [Announcement]
+          </a>
+        {{ end }}
       </div>
     </div>
     {{ end }}
