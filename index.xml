@@ -83,6 +83,45 @@
     </item>
     
     <item>
+      <title>Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation</title>
+      <link>https://wijmans.xyz/publication/ddppo-2019/</link>
+      <pubDate>Thu, 26 Sep 2019 16:03:24 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/ddppo-2019/</guid>
+      <description>
+
+&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+
+&lt;p&gt;We present Decentralized Distributed PPO (DD-PPO).  DD-PPO is synchronous and simple to implement.  We leverage DD-PPO to achieve
+state of art results on the &lt;a href=&#34;https://aihabitat.org/challenge/&#34; target=&#34;_blank&#34;&gt;Habitat Autonomous Navigation Challenge 2019&lt;/a&gt; and &amp;ldquo;solve&amp;rdquo; the task
+of PointGoal Navigation for agents with RGB-D and GPS+Compass sensors.&lt;/p&gt;
+
+&lt;p&gt;Specifically, these agents
+ almost always reach the goal (failing on &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;1000&lt;/sub&gt; val episodes on average), and
+reach it &lt;em&gt;nearly as efficiently as possible&lt;/em&gt; &amp;ndash; nearly matching (within 3% of) the performance of a &lt;em&gt;shortest-path oracle&lt;/em&gt;!
+It is worth stressing how uncompromising that comparison
+is &amp;ndash; in a &lt;em&gt;new&lt;/em&gt; environment, an agent navigating without a map traverses a path nearly matching the shortest path on the map.
+This means there is no scope for mistakes of any kind &amp;ndash;
+no wrong turn at a crossroad,
+no back-tracking from a dead-end,
+no exploration or deviation of any kind from the shortest-path.
+Our hypothesis is that the model learns to exploit the statistical regularities in the floor-plans of indoor environments (apartments, offices) in our datasets.&lt;/p&gt;
+
+&lt;h1 id=&#34;example-navigation-episodes&#34;&gt;Example Navigation Episodes&lt;/h1&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wNDcvomBRt8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This video shows the agent successfully navigating &lt;em&gt;22 meters&lt;/em&gt; across a house (the top down map is shown for visualization purposes only).  Notice the second right-hand turn the agent makes.
+While walking through the kitchen, the agent is able to infer that given the distance it still needs to travel, the goal cannot be directly forward, and it is not likely to be toward the left
+given that there is a wall.  Thus it correctly decides to go right and begins to turn such that it rounds the corner perfectly.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/a8AugVLSJ50&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This demonstrates the agents ability to expertly backtrack once it is clear that it made the wrong decision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Embodied Question Answering in Photorealistic Environments with Point Cloud Perception</title>
       <link>https://wijmans.xyz/talk/eqa-matterport-cvpr19/</link>
       <pubDate>Fri, 19 Jul 2019 14:45:00 -0900</pubDate>

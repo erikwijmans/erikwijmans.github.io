@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation</title>
+      <link>https://wijmans.xyz/publication/ddppo-2019/</link>
+      <pubDate>Thu, 26 Sep 2019 16:03:24 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/ddppo-2019/</guid>
+      <description>Intro We present Decentralized Distributed PPO (DD-PPO). DD-PPO is synchronous and simple to implement. We leverage DD-PPO to achieve state of art results on the Habitat Autonomous Navigation Challenge 2019 and &amp;ldquo;solve&amp;rdquo; the task of PointGoal Navigation for agents with RGB-D and GPS+Compass sensors.
+Specifically, these agents almost always reach the goal (failing on 1&amp;frasl;1000 val episodes on average), and reach it nearly as efficiently as possible &amp;ndash; nearly matching (within 3% of) the performance of a shortest-path oracle!</description>
+    </item>
+    
+    <item>
       <title>The Replica Dataset: A Digital Replica of Indoor Spaces</title>
       <link>https://wijmans.xyz/publication/replica-2019/</link>
       <pubDate>Fri, 21 Jun 2019 10:12:49 -0700</pubDate>
