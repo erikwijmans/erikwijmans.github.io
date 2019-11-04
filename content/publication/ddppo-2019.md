@@ -1,7 +1,7 @@
 +++
 title = "Decentralized Distributed PPO:<br/> Solving PointGoal Navigation"
 date = 2019-09-26T16:03:24-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Erik Wijmans**, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, Devi Parikh, Manolis Savva, Dhruv Batra"]
@@ -44,12 +44,12 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/1911.00357"
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=5PBp_V5i1v4"
 url_poster = ""
 url_source = ""
 
