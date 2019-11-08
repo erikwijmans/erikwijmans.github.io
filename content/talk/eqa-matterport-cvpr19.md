@@ -47,7 +47,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "eqa-mp3d-cvpr-frame.png"
 caption = ""
 
 +++

@@ -20,7 +20,7 @@ publication_types = []
 # Publication name and optional abbreviated version.
 publication = "International Conference on Computer Vision (ICCV)"
 oral = "top 187 of 4303 submissions = top-4.3%"
-awards = "Best Paper Award Nominee, top-0.25%"
+awards = "Best Paper Award Nominee, top 11 of 4303 submissions = top-0.25%"
 publication_short = ""
 
 # Abstract and optional shortened version.
