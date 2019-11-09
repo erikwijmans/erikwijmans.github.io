@@ -45,7 +45,7 @@ tags = []
 # Links (optional).
 url_pdf = ""
 url_preprint = "https://arxiv.org/abs/1911.00357"
-url_code = ""
+url_code = "https://github.com/facebookresearch/habitat-api/pull/245"
 url_dataset = ""
 url_project = ""
 url_slides = ""
