@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -6,16 +7,6 @@
     
       <loc>https://wijmans.xyz/award/iccv19-best-paper-nom/</loc>
       <lastmod>2019-11-08T22:46:46-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wijmans.xyz/</loc>
-      <lastmod>2019-11-08T22:46:46-05:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -113,16 +104,6 @@
     
     <url>
     
-      <loc>https://wijmans.xyz/talk/</loc>
-      <lastmod>2019-07-19T14:45:00-09:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://wijmans.xyz/publication/replica-2019/</loc>
       <lastmod>2019-06-21T10:12:49-07:00</lastmod>
     </url>
@@ -150,28 +131,8 @@
     
     <url>
     
-      <loc>https://wijmans.xyz/publication_types/1/</loc>
-      <lastmod>2017-07-22T23:10:51-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://wijmans.xyz/publication/building-scale-rgbd-alginment/</loc>
       <lastmod>2017-07-22T23:10:51-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wijmans.xyz/publication_types/</loc>
-      <lastmod>2017-07-22T23:10:51-05:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -215,6 +176,16 @@
     
     <url>
     
+      <loc>https://wijmans.xyz/publication_types/1/</loc>
+      <lastmod>2017-07-22T23:10:51-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wijmans.xyz/categories/</loc>
       <priority>0</priority>
     </url>
@@ -224,7 +195,37 @@
     
     <url>
     
+      <loc>https://wijmans.xyz/</loc>
+      <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication_types/</loc>
+      <lastmod>2017-07-22T23:10:51-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wijmans.xyz/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/talk/</loc>
+      <lastmod>2019-07-19T14:45:00-09:00</lastmod>
       <priority>0</priority>
     </url>
     
