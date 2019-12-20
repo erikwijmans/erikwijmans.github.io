@@ -19,6 +19,8 @@ publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
 publication = ""
+acceptance = ""
+conf_year = ""
 oral = ""
 awards = ""
 publication_short = ""

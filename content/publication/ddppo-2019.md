@@ -18,7 +18,9 @@ authors = ["**Erik Wijmans**, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Ess
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "International Conference on Learning Representations (ICLR)"
+acceptance = "26.5% acceptance rate, 687 out of 2594 papers"
+conf_year = "2020"
 publication_short = ""
 
 # Abstract and optional shortened version.

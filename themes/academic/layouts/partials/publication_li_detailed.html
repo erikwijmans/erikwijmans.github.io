@@ -32,7 +32,15 @@
       {{ else if .Params.publication }}
       {{- .Params.publication | markdownify -}},&nbsp;
       {{- end -}}
-      {{- .Date.Format "2006" -}}.
+      {{ if .Params.conf_year }}
+        {{- .Params.conf_year | markdownify -}}.
+      {{ else }}
+        {{- .Date.Format "2006" -}}.
+      {{ end }}
+      <br>
+      {{ if .Params.acceptance }}
+        {{- .Params.acceptance | markdownify -}}
+      {{ end }}
     </div>
 
     {{ if .Params.oral }}
