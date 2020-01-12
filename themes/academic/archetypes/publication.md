@@ -15,7 +15,7 @@ authors = [""]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["0"]
+publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = ""
