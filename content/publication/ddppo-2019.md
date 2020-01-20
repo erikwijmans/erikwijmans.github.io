@@ -1,5 +1,5 @@
 +++
-title = "Decentralized Distributed PPO:<br/> Solving PointGoal Navigation"
+title = "DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames"
 date = 2019-09-26T16:03:24-04:00
 draft = false
 
