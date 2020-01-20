@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Are We Making Real Progress in Simulated Environments? Measuring the Sim2Real Gap in Embodied Visual Navigation</title>
+      <link>https://wijmans.xyz/publication/sim2real-2019/</link>
+      <pubDate>Sun, 12 Jan 2020 14:52:42 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/sim2real-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Best Paper Award Nomination, International Conference on Computer Vision (ICCV), 2019</title>
       <link>https://wijmans.xyz/award/iccv19-best-paper-nom/</link>
       <pubDate>Fri, 08 Nov 2019 22:46:46 -0500</pubDate>
@@ -92,7 +101,7 @@
     </item>
     
     <item>
-      <title>Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation</title>
+      <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</title>
       <link>https://wijmans.xyz/publication/ddppo-2019/</link>
       <pubDate>Thu, 26 Sep 2019 16:03:24 -0400</pubDate>
       
@@ -177,15 +186,6 @@ given that there is a wall.  Thus it correctly decides to go right and begins to
       <pubDate>Fri, 05 Apr 2019 19:04:11 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/eqa-mp3d-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploiting 2D Floorplan for Building-scale Panorama RGB-D Alignment</title>
-      <link>https://wijmans.xyz/publication/building-scale-rgbd-alginment/</link>
-      <pubDate>Sat, 22 Jul 2017 23:10:51 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/building-scale-rgbd-alginment/</guid>
       <description></description>
     </item>
     

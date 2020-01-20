@@ -13,7 +13,16 @@
     
     
     <item>
-      <title>Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation</title>
+      <title>Are We Making Real Progress in Simulated Environments? Measuring the Sim2Real Gap in Embodied Visual Navigation</title>
+      <link>https://wijmans.xyz/publication/sim2real-2019/</link>
+      <pubDate>Sun, 12 Jan 2020 14:52:42 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/sim2real-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</title>
       <link>https://wijmans.xyz/publication/ddppo-2019/</link>
       <pubDate>Thu, 26 Sep 2019 16:03:24 -0400</pubDate>
       

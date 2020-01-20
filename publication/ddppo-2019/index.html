@@ -78,7 +78,7 @@
   
   <meta property="og:site_name" content="Erik Wijmans">
   <meta property="og:url" content="https://wijmans.xyz/publication/ddppo-2019/">
-  <meta property="og:title" content="Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation | Erik Wijmans">
+  <meta property="og:title" content="DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames | Erik Wijmans">
   <meta property="og:description" content="We present Decentralized Distributed Proximal Policy Optimization (DD-PPO), a method for distributed reinforcement learning in resource-intensive simulated environments. DD-PPO is distributed (uses multiple machines), decentralized (lacks a centralized server), and synchronous (no computation is ever &#39;stale&#39;), making it conceptually simple and easy to implement. In our experiments on training virtual robots to navigate in Habitat-Sim, DD-PPO exhibits near-linear scaling -- achieving a speedup of 107x on 128 GPUs over a serial implementation. We leverage this scaling to train an agent for 2.5 Billion steps of experience (the equivalent of 80 years of human experience) -- over 6 months of GPU-time training in under 3 days of wall-clock time with 64 GPUs. &lt;br/&gt; This massive-scale training not only sets the state of art on Habitat Autonomous Navigation Challenge 2019, but essentially &#39;solves&#39; the task -- near-perfect autonomous navigation in an unseen environment without access to a map, directly from an RGB-D camera and a GPS&#43;Compass sensor.  Fortuitously, error vs computation exhibits a power-law-like distribution; thus, 90% of peak performance is obtained relatively early (at 100 million steps) and relatively cheaply (under 1 day with 8 GPUs). Finally, we show that the scene understanding and navigation policies learned can be transferred to other navigation tasks -- the analog of &#39;ImageNet pre-training &#43; task-specific fine-tuning&#39; for embodied AI. Our model outperforms ImageNet pre-trained CNNs on these transfer tasks and can serve as a universal resource (all models &#43; code will be publicly available)."><meta property="og:image" content="https://wijmans.xyz/img/pointnav_fig_v2.png">
   <meta property="og:locale" content="en-us">
   
@@ -89,7 +89,7 @@
 
   
 
-  <title>Decentralized Distributed PPO:&lt;br/&gt; Solving PointGoal Navigation | Erik Wijmans</title>
+  <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames | Erik Wijmans</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -233,7 +233,7 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Decentralized Distributed PPO:<br/> Solving PointGoal Navigation</h1>
+    <h1 itemprop="name">DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</h1>
     <span class="pub-authors" itemprop="author">
       
       <strong>Erik Wijmans</strong>, Abhishek Kadian, Ari Morcos, Stefan Lee, Irfan Essa, Devi Parikh, Manolis Savva, Dhruv Batra
@@ -245,7 +245,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Decentralized%20Distributed%20PPO%3a%3cbr%2f%3e%20Solving%20PointGoal%20Navigation&amp;url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f"
+         href="https://twitter.com/intent/tweet?text=DD-PPO%3a%20Learning%20Near-Perfect%20PointGoal%20Navigators%20from%202.5%20Billion%20Frames&amp;url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
@@ -259,21 +259,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f&amp;title=Decentralized%20Distributed%20PPO%3a%3cbr%2f%3e%20Solving%20PointGoal%20Navigation"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f&amp;title=DD-PPO%3a%20Learning%20Near-Perfect%20PointGoal%20Navigators%20from%202.5%20Billion%20Frames"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f&amp;title=Decentralized%20Distributed%20PPO%3a%3cbr%2f%3e%20Solving%20PointGoal%20Navigation"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f&amp;title=DD-PPO%3a%20Learning%20Near-Perfect%20PointGoal%20Navigators%20from%202.5%20Billion%20Frames"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Decentralized%20Distributed%20PPO%3a%3cbr%2f%3e%20Solving%20PointGoal%20Navigation&amp;body=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f">
+         href="mailto:?subject=DD-PPO%3a%20Learning%20Near-Perfect%20PointGoal%20Navigators%20from%202.5%20Billion%20Frames&amp;body=https%3a%2f%2fwijmans.xyz%2fpublication%2fddppo-2019%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -298,7 +298,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">arXiv</div>
+          <div class="col-xs-12 col-sm-9">International Conference on Learning Representations (ICLR)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
