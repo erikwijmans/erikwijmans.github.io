@@ -8,6 +8,7 @@
   <meta name="theme" content="hugo-academic">
   {{ .Hugo.Generator }}
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.search_terms }}<meta name="keywords" content="{{ . }}">{{ end }}
 
   {{ $scr := .Scratch }}
   {{/* Generate page description. */}}
