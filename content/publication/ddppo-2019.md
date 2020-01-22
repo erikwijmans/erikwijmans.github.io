@@ -54,6 +54,7 @@ url_slides = ""
 url_video = "https://www.youtube.com/watch?v=5PBp_V5i1v4"
 url_poster = ""
 url_source = ""
+press_coverage_tag = "DD-PPO"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

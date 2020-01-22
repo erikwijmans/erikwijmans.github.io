@@ -58,6 +58,9 @@
 - id: btn_download
   translation: Download
 
+- id: btn_press_coverage
+  translation: Press Coverage
+
 # About widget
 
 - id: interests

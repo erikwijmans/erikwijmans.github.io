@@ -67,3 +67,9 @@
   {{ .name }}
 </a>
 {{ end }}
+
+{{ with $.Params.press_coverage_tag }}
+<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}} press-coverage-btn" href="/#{{ . | urlize }}" data-target="#{{ . | urlize }}">
+  {{ i18n "btn_press_coverage" }}
+</a>
+{{ end }}

@@ -54,6 +54,8 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+press_coverage_tag = "AI Habitat"
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

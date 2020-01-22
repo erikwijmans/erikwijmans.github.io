@@ -71,6 +71,23 @@
     }
   });
 
+  $('a.press-coverage-btn').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - 2 * navbar_offset
+      }, 800);
+    }
+  });
+
   /* ---------------------------------------------------------------------------
    * Smooth scrolling for Back To Top link.
    * --------------------------------------------------------------------------- */
