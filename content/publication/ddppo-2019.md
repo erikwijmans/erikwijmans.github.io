@@ -45,9 +45,9 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/abs/1911.00357"
-url_code = "https://github.com/facebookresearch/habitat-api/pull/245"
+url_pdf = "https://arxiv.org/abs/1911.00357"
+url_preprint = ""
+url_code = "https://github.com/facebookresearch/habitat-api/tree/master/habitat_baselines/rl/ddppo"
 url_dataset = ""
 url_project = ""
 url_slides = ""

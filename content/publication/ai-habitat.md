@@ -45,8 +45,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/abs/1904.01201"
+url_pdf = "https://arxiv.org/abs/1904.01201"
+url_preprint = ""
 url_code = "https://github.com/facebookresearch/habitat-sim"
 url_dataset = "https://github.com/facebookresearch/habitat-api"
 url_project = "https://aihabitat.org"

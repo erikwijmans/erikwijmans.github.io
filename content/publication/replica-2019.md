@@ -43,8 +43,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/abs/1906.05797"
+url_pdf = "https://arxiv.org/abs/1906.05797"
+url_preprint = ""
 url_code = "https://github.com/facebookresearch/Replica-Dataset"
 url_dataset = "https://github.com/facebookresearch/Replica-Dataset"
 url_project = ""

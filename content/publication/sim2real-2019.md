@@ -46,8 +46,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/abs/1912.06321"
+url_pdf = "https://arxiv.org/abs/1912.06321"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""

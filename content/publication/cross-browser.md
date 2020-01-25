@@ -42,6 +42,7 @@ tags = []
 
 # Links (optional).
 url_project = "http://uniquemachine.org"
+url_pdf = "https://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

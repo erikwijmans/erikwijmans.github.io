@@ -43,6 +43,7 @@ projects = []
 tags = []
 
 # Links (optional).
+url_pdf = "https://cvpr17.wijmans.xyz/CVPR2017-0111.pdf"
 url_project = "http://cvpr17.wijmans.xyz"
 
 # Custom links (optional).
