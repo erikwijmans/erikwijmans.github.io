@@ -1,6 +1,8 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
   <!-- <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i> -->
-  <h4 itemprop="name" style="margin-bottom: 10px;"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+  <h3 class="article-title" itemprop="name">
+    <a href="{{ .Permalink }}" itemprop="url">{{ .Title | markdownify }}</a>
+  </h3>
 
    <div class="row">
     {{ if .Params.header.image }}
