@@ -95,15 +95,15 @@ ul, ol, dl {
 /* Navigation bar text */
 .navbar-default {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   margin-bottom: .5rem;
   line-height: 1.25;
   color: #313131;
@@ -117,12 +117,12 @@ h2 {
   font-size: 1.5rem;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 1.0rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -169,7 +169,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   counter-increment: captions;
 }
 
@@ -182,7 +182,7 @@ figcaption h4 {
 
 pre,
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Inconsolata', monospace;
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -1244,7 +1244,7 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-brand {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
   font-size: 1.2em;
   color: #ecf0f1;
