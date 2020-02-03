@@ -19,7 +19,7 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "International Conference on Learning Representations (ICLR)"
-acceptance = "Top 336 of 2594 submission = top-13%"
+acceptance = "Top 336 of 2594 submissions = top-13%"
 conf_year = "2020"
 publication_short = ""
 
