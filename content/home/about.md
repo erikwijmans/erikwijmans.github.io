@@ -62,6 +62,12 @@ worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer at Lehigh U
 worked with [Yinzhi Cao][YC] (now at JHU).
 
 
+## Updates
+
+* Organizing a tutorial at ECCV on AI Habitat [aihabitat.org/tutorial/2020](https://aihabitat.org/tutorial/2020)
+* Organizing a 2-day workshop on EmbodiedAI at CVPR2020 [embodied-ai.org](https://embodied-ai.org/)!  Also includes the 2020 Habitat Challenge [aihabitat.org/challenge/2020](https://aihabitat.org/challenge/2020)
+
+
 [IS]: http://prof.irfanessa.com
 [DB]: https://www.cc.gatech.edu/~dbatra/
 [DP]: https://www.cc.gatech.edu/~parikh/
