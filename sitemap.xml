@@ -4,8 +4,9 @@
     
     <url>
     
-      <loc>https://wijmans.xyz/publication/vln-ce-2020/</loc>
-      <lastmod>2020-04-06T17:48:25-04:00</lastmod>
+      <loc>https://wijmans.xyz/</loc>
+      <lastmod>2020-04-14T17:05:45-04:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -13,9 +14,17 @@
     
     <url>
     
-      <loc>https://wijmans.xyz/</loc>
+      <loc>https://wijmans.xyz/press/vln-ce-vb/</loc>
+      <lastmod>2020-04-14T17:05:45-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication/vln-ce-2020/</loc>
       <lastmod>2020-04-06T17:48:25-04:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
