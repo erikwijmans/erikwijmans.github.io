@@ -10,5 +10,5 @@ site_title = "MIT Technology Review"
 rest = "article about DD-PPO"
 
 # Put in static/
-image = "mit-tech-logo.png"
+image = "logos/mit-tech-logo.png"
 +++

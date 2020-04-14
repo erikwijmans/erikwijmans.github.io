@@ -10,5 +10,5 @@ site_title = "TechCrunch"
 rest = "article about Habitat and the Replica Dataset"
 
 # Put in static/
-image = "techcrunch-press-logo.png"
+image = "logos/techcrunch-press-logo.png"
 +++

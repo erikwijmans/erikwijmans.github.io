@@ -10,5 +10,5 @@ site_title = "TechCrunch"
 rest = "article and interview about DD-PPO and AI Habitat"
 
 # Put in static/
-image = "techcrunch-press-logo.png"
+image = "logos/techcrunch-press-logo.png"
 +++

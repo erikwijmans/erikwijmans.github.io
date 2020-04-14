@@ -7,5 +7,5 @@ announcement_url = "http://iccv2019.thecvf.com/program/main_conference"
 giver_url = "http://iccv2019.thecvf.com/program/main_conference"
 
 # Put in static/
-image = "iccv19-logo.png"
+image = "logos/iccv19-logo.png"
 +++

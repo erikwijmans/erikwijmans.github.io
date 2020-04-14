@@ -10,5 +10,5 @@ site_title = "Forbes"
 rest = "article about Habitat and FAIR’s work to train robots"
 
 # Put in static/
-image = "forbes-logo.png"
+image = "logos/forbes-logo.png"
 +++

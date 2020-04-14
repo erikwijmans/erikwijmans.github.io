@@ -56,7 +56,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-press_coverage_tag = ""
+press_coverage_tag = "VLN-CE"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

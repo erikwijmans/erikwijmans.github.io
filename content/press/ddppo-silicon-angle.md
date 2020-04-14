@@ -10,5 +10,5 @@ site_title = "Silicon Angle"
 rest = "article about DD-PPO"
 
 # Put in static/
-image = "sa-press-logo.png"
+image = "logos/sa-press-logo.png"
 +++

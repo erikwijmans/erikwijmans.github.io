@@ -7,5 +7,5 @@ announcement_url = ""
 giver_url = "https://atlanta.arcsfoundation.org"
 
 # Put in static/
-image = "arcs_logo.png"
+image = "logos/arcs_logo.png"
 +++

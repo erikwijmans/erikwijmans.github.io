@@ -10,5 +10,5 @@ site_title = "Tech@facebook"
 rest = "blog post about the Replica Dataset"
 
 # Put in static/
-image = "tech-at-fb-logo.png"
+image = "logos/tech-at-fb-logo.png"
 +++

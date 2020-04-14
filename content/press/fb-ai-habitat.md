@@ -10,5 +10,5 @@ site_title = "facebook AI"
 rest = "blog post about Habitat"
 
 # Put in static/img
-image = "fb-ai-blog-logo.png"
+image = "logos/fb-ai-blog-logo.png"
 +++

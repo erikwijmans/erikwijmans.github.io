@@ -10,5 +10,5 @@ site_title = "NVIDIA developer"
 rest = "blog post about DD-PPO"
 
 # Put in static/
-image = "nvidia-logo.png"
+image = "logos/nvidia-logo.png"
 +++

@@ -10,5 +10,5 @@ site_title = "Engadget"
 rest = "article about DD-PPO"
 
 # Put in static/
-image = "engadget-logo.png"
+image = "logos/engadget-logo.png"
 +++
