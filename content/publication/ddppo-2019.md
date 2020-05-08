@@ -51,7 +51,7 @@ url_code = "https://github.com/facebookresearch/habitat-api/tree/master/habitat_
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = "https://www.youtube.com/watch?v=5PBp_V5i1v4"
+url_video = "https://iclr.cc/virtual_2020/poster_H1gX8C4YPr.html"
 url_poster = ""
 url_source = ""
 press_coverage_tag = "DD-PPO"
@@ -105,3 +105,9 @@ given that there is a wall.  Thus it correctly decides to go right and begins to
 
 
 This demonstrates the agents ability to expertly backtrack once it is clear that it made the wrong decision.
+
+
+# ICLR 2020 Presentation
+
+The presentation of this work for ICLR 2020 can be found here [iclr.cc/virtual_2020/poster_H1gX8C4YPr](https://iclr.cc/virtual_2020/poster_H1gX8C4YPr.html)
+
