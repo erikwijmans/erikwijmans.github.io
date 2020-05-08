@@ -49,6 +49,7 @@ My work focuses on training virtual robots (embodied agents) in simulation and t
 to overcome the challenges of real-world training (its slow, and expensive).
 
 
+In the summer of 2020, I will be an intern at Intel working with [Vladlen Koltun][VK].
 In the summer of 2019, I was an
 intern at FAIR, working with [Manolis Savva][MS] and continuing my on-going
 collaboration with FRL.
@@ -77,4 +78,4 @@ worked with [Yinzhi Cao][YC] (now at JHU).
 [WUSTL]: https://wustl.edu
 [YF]: http://www.cs.sfu.ca/~furukawa/
 [YC]: http://www.yinzhicao.org
-
+[VK]: http://vladlen.info
