@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 14:45:00 -0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 21:21:35 -0400</lastBuildDate>
     
 	<atom:link href="https://wijmans.xyz/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</title>
+      <link>https://wijmans.xyz/talk/ddppo-iclr-2020/</link>
+      <pubDate>Mon, 15 Jun 2020 21:21:35 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/talk/ddppo-iclr-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Embodied Question Answering in Photorealistic Environments with Point Cloud Perception</title>
