@@ -18,7 +18,7 @@ authors = ["**Erik Wijmans**", "Julian Straub", "Dhruv Batra", "Irfan Essa", "Ju
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "ICLR 2019 Workshop on Taskagnostic Reinforcement Learning (TARL) and arXiv"
+publication = "ICLR 2019 Workshop on Task-Agnostic Reinforcement Learning (TARL) and arXiv"
 acceptance = ""
 conf_year = ""
 oral = ""
