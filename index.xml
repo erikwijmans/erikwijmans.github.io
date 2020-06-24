@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ObjectNav Revisited: On Evaluation of Embodied Agents Navigating to Objects</title>
+      <link>https://wijmans.xyz/publication/objectnav-white-paper/</link>
+      <pubDate>Tue, 23 Jun 2020 22:21:06 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/objectnav-white-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</title>
       <link>https://wijmans.xyz/talk/ddppo-iclr-2020/</link>
       <pubDate>Mon, 15 Jun 2020 21:21:35 -0400</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Sun, 03 Nov 2019 16:08:35 +0900</pubDate>
       
       <guid>https://wijmans.xyz/award/arcs-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Forbes Ai Hab</title>
-      <link>https://wijmans.xyz/press/forbes-ai-hab/</link>
-      <pubDate>Sun, 27 Oct 2019 17:58:56 +0900</pubDate>
-      
-      <guid>https://wijmans.xyz/press/forbes-ai-hab/</guid>
       <description></description>
     </item>
     
