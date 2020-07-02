@@ -18,9 +18,9 @@ authors = ["Abhishek Kadian&ast;",  "Joanne Truong&ast;",  "Aaron Gokaslan", "Al
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "Robotics and Automation Letters (RA-L) and Intelligent Robots and Systems (IROS)"
 acceptance = ""
-conf_year = ""
+conf_year = "2020"
 oral = ""
 awards = ""
 publication_short = ""

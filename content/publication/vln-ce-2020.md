@@ -18,8 +18,8 @@ authors = ["Jacob Krantz", "**Erik Wijmans**", "Arjun Majumdar", "Dhruv Batra", 
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
-acceptance = ""
+publication = "European Conference on Computer Vision (ECCV)"
+acceptance = "1361 out of 5025 submission = 27%"
 conf_year = "2020"
 oral = ""
 awards = ""
