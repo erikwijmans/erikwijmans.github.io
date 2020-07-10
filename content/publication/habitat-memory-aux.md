@@ -1,10 +1,10 @@
 +++
-title = "Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments"
-date = 2020-04-06T17:48:25-04:00
+title = "Auxiliary Tasks Speed Up Learning PointGoal Navigation"
+date = 2020-07-09T20:50:26-04:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Jacob Krantz", "**Erik Wijmans**", "Arjun Majumdar", "Dhruv Batra", "Stefan Lee"]
+authors = ["Joel Ye", "Dhruv Batra", "**Erik Wijmans**&ast;", "Abhishek Das&ast;"]
 
 # Publication type.
 # Legend:
@@ -18,16 +18,16 @@ authors = ["Jacob Krantz", "**Erik Wijmans**", "Arjun Majumdar", "Dhruv Batra", 
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "European Conference on Computer Vision (ECCV)"
-acceptance = "Acceptance: 1361 out of 5025 submission = 27%"
-conf_year = "2020"
+publication = "arXiv"
+acceptance = ""
+conf_year = ""
 oral = ""
 awards = ""
 publication_short = ""
 
 
 # Abstract and optional shortened version.
-abstract = "We develop a language-guided navigation task set in a continuous 3D environment where agents must execute low-level actions to follow natural language navigation directions. By being situated in continuous environments, this setting lifts a number of assumptions implicit in prior work that represents environments as a sparse graph of panoramas with edges corresponding to navigability. Specifically, our setting drops the presumptions of known environment topologies, short-range oracle navigation, and perfect agent localization. To contextualize this new task, we develop models that mirror many of the advances made in prior setting as well as single-modality baselines. While some of these techniques transfer, we find significantly lower absolute performance in the continuous setting -- suggesting that performance in prior navigation-graph settings may be inflated by the strong implicit assumptions."
+abstract = "PointGoal Navigation is an embodied task that requires agents to navigate to a specified point in an unseen environment. Wijmans et al. showed that this task is solvable but their method is computationally prohibitive, requiring 2.5 billion frames and 180 GPU-days. In this work, we develop a method to significantly increase sample and time efficiency in learning PointNav using self-supervised auxiliary tasks (e.g. predicting the action taken between two egocentric observations, predicting the distance between two observations from a trajectory,etc.).We find that naively combining multiple auxiliary tasks improves sample efficiency,but only provides marginal gains beyond a point. To overcome this, we use attention to combine representations learnt from individual auxiliary tasks. Our best agent is 5x faster to reach the performance of the previous state-of-the-art, DD-PPO, at 40M frames, and improves on DD-PPO's performance at40M frames by 0.16 SPL."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -47,7 +47,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2004.02857"
+url_pdf = "https://arxiv.org/abs/2007.04561"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -56,7 +56,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-press_coverage_tag = "VLN-CE"
+press_coverage_tag = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -71,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "vln-ce-teaser.png"
+image = "habitat-memory-aux-teaser.jpg"
 caption = ""
 
 +++

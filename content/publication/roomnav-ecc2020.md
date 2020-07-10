@@ -1,10 +1,10 @@
 +++
-title = "Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments"
-date = 2020-04-06T17:48:25-04:00
-draft = false
+title = "Seeing the Un-Scene: Learning Amodal Semantic Maps for Room Navigation"
+date = 2020-07-03T15:10:07-04:00
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Jacob Krantz", "**Erik Wijmans**", "Arjun Majumdar", "Dhruv Batra", "Stefan Lee"]
+authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darrell", "Dhruv Batra", "Devi Parikh", "Amanpreet Singh"]
 
 # Publication type.
 # Legend:
@@ -27,7 +27,7 @@ publication_short = ""
 
 
 # Abstract and optional shortened version.
-abstract = "We develop a language-guided navigation task set in a continuous 3D environment where agents must execute low-level actions to follow natural language navigation directions. By being situated in continuous environments, this setting lifts a number of assumptions implicit in prior work that represents environments as a sparse graph of panoramas with edges corresponding to navigability. Specifically, our setting drops the presumptions of known environment topologies, short-range oracle navigation, and perfect agent localization. To contextualize this new task, we develop models that mirror many of the advances made in prior setting as well as single-modality baselines. While some of these techniques transfer, we find significantly lower absolute performance in the continuous setting -- suggesting that performance in prior navigation-graph settings may be inflated by the strong implicit assumptions."
+abstract = "We introduce a learning-based approach for room navigation using semantic maps. Our proposed architecture learns to predict top-down belief maps of regions that lie beyond the agent’s field of view while modeling architectural and stylistic regularities in houses. First, we train a model to generate amodal semantic top-down maps indicating beliefs of location, size, and shape of rooms by learning the underlying architectural patterns in houses. Next, we use these maps to predict a point that lies in the target room and train a policy to navigate to the point. We empirically demonstrate that by predicting semantic maps, the model learns common correlations found in houses and generalizes to novel environments. We also demonstrate that reducing the task of room navigation to point navigation improves the performance further. We will make our code publicly available and hope our work paves the way for further research in this space."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -47,7 +47,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2004.02857"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -56,7 +56,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-press_coverage_tag = "VLN-CE"
+press_coverage_tag = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -71,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "vln-ce-teaser.png"
+image = ""
 caption = ""
 
 +++
