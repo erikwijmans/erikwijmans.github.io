@@ -6,9 +6,18 @@
     <description>Recent content in Erik Wijmans on Erik Wijmans</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
+    <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Auxiliary Tasks Speed Up Learning PointGoal Navigation</title>
+      <link>https://wijmans.xyz/publication/habitat-memory-aux/</link>
+      <pubDate>Thu, 09 Jul 2020 20:50:26 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/habitat-memory-aux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ObjectNav Revisited: On Evaluation of Embodied Agents Navigating to Objects</title>
@@ -133,15 +142,6 @@
       <pubDate>Fri, 08 Nov 2019 22:46:46 -0500</pubDate>
       
       <guid>https://wijmans.xyz/award/iccv19-best-paper-nom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2019-20 Scholar Award fellowship from the Achievement Rewards for College Scientists (ARCS) Foundation</title>
-      <link>https://wijmans.xyz/award/arcs-19/</link>
-      <pubDate>Sun, 03 Nov 2019 16:08:35 +0900</pubDate>
-      
-      <guid>https://wijmans.xyz/award/arcs-19/</guid>
       <description></description>
     </item>
     
