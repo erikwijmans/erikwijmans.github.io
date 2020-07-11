@@ -49,9 +49,9 @@ tags = []
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/2004.02857"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/jacobkrantz/VLN-CE"
 url_dataset = ""
-url_project = ""
+url_project = "https://jacobkrantz.github.io/vlnce/"
 url_slides = ""
 url_video = ""
 url_poster = ""

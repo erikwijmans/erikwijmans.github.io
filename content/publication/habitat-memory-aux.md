@@ -49,7 +49,7 @@ tags = []
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/2007.04561"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/joel99/habitat-pointnav-aux"
 url_dataset = ""
 url_project = ""
 url_slides = ""
