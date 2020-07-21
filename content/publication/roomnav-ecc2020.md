@@ -1,7 +1,7 @@
 +++
 title = "Seeing the Un-Scene: Learning Amodal Semantic Maps for Room Navigation"
 date = 2020-07-03T15:10:07-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darrell", "Dhruv Batra", "Devi Parikh", "Amanpreet Singh"]
@@ -47,7 +47,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://arxiv.org/abs/2007.09841"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -71,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "roomnav-teaser.jpg"
 caption = ""
 
 +++
