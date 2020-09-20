@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2020-21 Scholar Award fellowship from the Achievement Rewards for College Scientists (ARCS) Foundation</title>
+      <link>https://wijmans.xyz/award/arcs-20/</link>
+      <pubDate>Sun, 20 Sep 2020 11:38:56 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/award/arcs-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cnn Habitat 08 2020</title>
+      <link>https://wijmans.xyz/press/cnn-habitat-08-2020/</link>
+      <pubDate>Fri, 18 Sep 2020 11:06:42 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/press/cnn-habitat-08-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Auxiliary Tasks Speed Up Learning PointGoal Navigation</title>
       <link>https://wijmans.xyz/publication/habitat-memory-aux/</link>
       <pubDate>Thu, 09 Jul 2020 20:50:26 -0400</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Tue, 21 Jan 2020 11:41:55 -0500</pubDate>
       
       <guid>https://wijmans.xyz/press/ddppo-fb-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Habitat 14 Fb Ai</title>
-      <link>https://wijmans.xyz/press/habitat-14-fb-ai/</link>
-      <pubDate>Tue, 21 Jan 2020 11:40:12 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/press/habitat-14-fb-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Are We Making Real Progress in Simulated Environments? Measuring the Sim2Real Gap in Embodied Visual Navigation</title>
-      <link>https://wijmans.xyz/publication/sim2real-2019/</link>
-      <pubDate>Sun, 12 Jan 2020 14:52:42 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/sim2real-2019/</guid>
       <description></description>
     </item>
     
