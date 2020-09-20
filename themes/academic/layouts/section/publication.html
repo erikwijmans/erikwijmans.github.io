@@ -14,8 +14,8 @@
 
       {{/* Array of distinct years. */}}
       {{ range .Pages.ByDate.Reverse }}
-        {{ $year := print (.Date.Format "2006") }}
-        {{ $.Scratch.SetInMap "years" $year $year }}
+        {{ $pub_year := cond (ne .Params.conf_year nil) .Params.conf_year ( .Date.Format "2006" ) }}
+        {{ $.Scratch.SetInMap "years" $pub_year $pub_year }}
       {{ end }}
 
       <p>

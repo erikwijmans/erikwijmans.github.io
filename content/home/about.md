@@ -49,18 +49,21 @@ My work focuses on training virtual robots (embodied agents) in simulation and t
 to overcome the challenges of real-world training (its slow, and expensive).
 
 
-In the summer of 2020, I will be an intern at Intel working with [Vladlen Koltun][VK].
+In the summer of 2020, I was an intern at Intel working with [Vladlen Koltun][VK].
 In the summer of 2019, I was an
-intern at FAIR, working with [Manolis Savva][MS] and continuing my on-going
-collaboration with FRL.
+intern at FAIR, working with [Manolis Savva][MS].
 In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
 [Julian Straub][JS] and [Dhruv Batra][DB].
 
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College][JC]
 and [Washington University in St. Louis (WUSTL)][WUSTL].
 While I was at WUSTL, I
-worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer at Lehigh University where I
-worked with [Yinzhi Cao][YC] (now at JHU).
+worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer
+working with [Yinzhi Cao][YC] (now at JHU)
+at Lehigh University.
+
+
+I also have the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@GT) and [Guillermo Nicolas Grande][NG] (1st year MS@GT), in research projects.
 
 
 ## Updates
@@ -72,10 +75,12 @@ worked with [Yinzhi Cao][YC] (now at JHU).
 [IS]: http://prof.irfanessa.com
 [DB]: https://www.cc.gatech.edu/~dbatra/
 [DP]: https://www.cc.gatech.edu/~parikh/
-[MS]: http://msavva.github.io
 [JS]: http://people.csail.mit.edu/jstraub/
 [JC]: https://www.juniata.edu
+[JY]: https://www.linkedin.com/in/joelye/
+[NG]: https://www.linkedin.com/in/guillermonicolasgrande/
+[MS]: http://msavva.github.io
+[VK]: http://vladlen.info
 [WUSTL]: https://wustl.edu
 [YF]: http://www.cs.sfu.ca/~furukawa/
 [YC]: http://www.yinzhicao.org
-[VK]: http://vladlen.info
