@@ -18,9 +18,9 @@ authors = ["Joel Ye", "Dhruv Batra", "**Erik Wijmans**&ast;", "Abhishek Das&ast;
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
-acceptance = ""
-conf_year = ""
+publication = "Conference on Robot Learning (CoRL)"
+acceptance = "Acceptance: 165 out of 460 submission = 36%"
+conf_year = "2020"
 oral = ""
 awards = ""
 publication_short = ""
