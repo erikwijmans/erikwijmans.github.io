@@ -52,8 +52,8 @@ to overcome the challenges of real-world training (its slow, and expensive).
 In the summer of 2020, I was an intern at Intel working with [Vladlen Koltun][VK].
 In the summer of 2019, I was an
 intern at FAIR, working with [Manolis Savva][MS].
-In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) and Facebook AI Research (FAIR) working with
-[Julian Straub][JS] and [Dhruv Batra][DB].
+In the summer of 2018, I was a research intern at Facebook Reality Labs (FRL) working with
+[Julian Straub][JS].
 
 As an undergraduate, I participated in a 3-2 engineering program with [Juniata College][JC]
 and [Washington University in St. Louis (WUSTL)][WUSTL].
