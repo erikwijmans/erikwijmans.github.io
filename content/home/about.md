@@ -77,7 +77,7 @@ I also have the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@G
 [DP]: https://www.cc.gatech.edu/~parikh/
 [JS]: http://people.csail.mit.edu/jstraub/
 [JC]: https://www.juniata.edu
-[JY]: https://www.linkedin.com/in/joelye/
+[JY]: https://joel99.github.io
 [NG]: https://www.linkedin.com/in/guillermonicolasgrande/
 [MS]: http://msavva.github.io
 [VK]: http://vladlen.info
