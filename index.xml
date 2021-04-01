@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2021 Georgia Tech College of Compute Outstanding Graduate Research Assistant Award</title>
+      <link>https://wijmans.xyz/award/coc-gra-2021/</link>
+      <pubDate>Wed, 31 Mar 2021 23:18:56 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/award/coc-gra-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Large Batch Simulation for Deep Reinforcement Learning</title>
       <link>https://wijmans.xyz/publication/bps-iclr-2021/</link>
       <pubDate>Sun, 14 Mar 2021 22:14:32 -0400</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Wed, 22 Jan 2020 11:50:41 -0500</pubDate>
       
       <guid>https://wijmans.xyz/press/ddppo-mit-tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ddppo Silicon Angle</title>
-      <link>https://wijmans.xyz/press/ddppo-silicon-angle/</link>
-      <pubDate>Tue, 21 Jan 2020 15:38:02 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/press/ddppo-silicon-angle/</guid>
       <description></description>
     </item>
     
