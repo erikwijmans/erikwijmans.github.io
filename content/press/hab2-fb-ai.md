@@ -5,7 +5,7 @@ draft = false
 
 grouping = "Habitat 2.0"
 
-article_url = "https://ai.facebook.com/research/publications/habitat-2.0-training-home-assistants-to-rearrange-their-habitat/"
+article_url = "https://ai.facebook.com/blog/habitat-20-training-home-assistant-robots-with-faster-simulation-and-new-benchmarks"
 site_title = "facebook AI"
 rest = "blog post about Habitat 2.0"
 
