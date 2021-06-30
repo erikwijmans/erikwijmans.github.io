@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Habitat 2.0: Training Home Assistants to Rearrange their Habitat</title>
+      <link>https://wijmans.xyz/publication/hab2/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:40 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/hab2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auxiliary Tasks and Exploration Enable ObjectNav</title>
+      <link>https://wijmans.xyz/publication/aux-tasks-obj-nav/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:34 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/aux-tasks-obj-nav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second</title>
+      <link>https://wijmans.xyz/publication/megaverse/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:16 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/megaverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Large Batch Simulation for Deep Reinforcement Learning</title>
       <link>https://wijmans.xyz/publication/bps-iclr-2021/</link>
       <pubDate>Sun, 14 Mar 2021 22:14:32 -0400</pubDate>

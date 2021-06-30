@@ -11,6 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Hab2 Fb Ai</title>
+      <link>https://wijmans.xyz/press/hab2-fb-ai/</link>
+      <pubDate>Wed, 30 Jun 2021 11:46:43 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/press/hab2-fb-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hab2 Cnn</title>
+      <link>https://wijmans.xyz/press/hab2-cnn/</link>
+      <pubDate>Wed, 30 Jun 2021 11:44:01 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/press/hab2-cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Habitat 2.0: Training Home Assistants to Rearrange their Habitat</title>
+      <link>https://wijmans.xyz/publication/hab2/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:40 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/hab2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auxiliary Tasks and Exploration Enable ObjectNav</title>
+      <link>https://wijmans.xyz/publication/aux-tasks-obj-nav/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:34 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/aux-tasks-obj-nav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second</title>
+      <link>https://wijmans.xyz/publication/megaverse/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:16 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/megaverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2021 Georgia Tech College of Compute Outstanding Graduate Research Assistant Award</title>
       <link>https://wijmans.xyz/award/coc-gra-2021/</link>
       <pubDate>Wed, 31 Mar 2021 23:18:56 -0400</pubDate>
@@ -97,51 +142,6 @@
       <pubDate>Tue, 14 Apr 2020 17:05:45 -0400</pubDate>
       
       <guid>https://wijmans.xyz/press/vln-ce-vb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments</title>
-      <link>https://wijmans.xyz/publication/vln-ce-2020/</link>
-      <pubDate>Mon, 06 Apr 2020 17:48:25 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/vln-ce-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analyzing Visual Representations in Embodied Navigation Tasks</title>
-      <link>https://wijmans.xyz/publication/task-agnostic-reps/</link>
-      <pubDate>Tue, 17 Mar 2020 19:03:16 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/task-agnostic-reps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ddppo Nvidia Blog</title>
-      <link>https://wijmans.xyz/press/ddppo-nvidia-blog/</link>
-      <pubDate>Wed, 22 Jan 2020 14:03:43 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/press/ddppo-nvidia-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ddppo Engadget</title>
-      <link>https://wijmans.xyz/press/ddppo-engadget/</link>
-      <pubDate>Wed, 22 Jan 2020 12:15:09 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/press/ddppo-engadget/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ddppo Mit Tech</title>
-      <link>https://wijmans.xyz/press/ddppo-mit-tech/</link>
-      <pubDate>Wed, 22 Jan 2020 11:50:41 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/press/ddppo-mit-tech/</guid>
       <description></description>
     </item>
     
