@@ -19,7 +19,7 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "European Conference on Computer Vision (ECCV)"
-acceptance = "Acceptance: 1361 out of 5025 submission = 27%"
+acceptance = "Acceptance: 1361 out of 5025 submissions = 27%"
 conf_year = "2020"
 oral = ""
 awards = ""

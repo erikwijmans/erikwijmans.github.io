@@ -1,10 +1,10 @@
 +++
-title = "Seeing the Un-Scene: Learning Amodal Semantic Maps for Room Navigation"
-date = 2020-07-03T15:10:07-04:00
+title = "Megaverse: Simulating Embodied Agents at One Million Experiences per Second"
+date = 2021-06-30T11:13:16-04:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darrell", "Dhruv Batra", "Devi Parikh", "Amanpreet Singh"]
+authors = ["Aleksei Petrenko", "**Erik Wijmans**", "Brennan Shacklett", "Vladlen Koltun"]
 
 # Publication type.
 # Legend:
@@ -15,19 +15,19 @@ authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darr
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = []
+publication_types = [1]
 
 # Publication name and optional abbreviated version.
-publication = "European Conference on Computer Vision (ECCV)"
-acceptance = "Acceptance: 1361 out of 5025 submissions = 27%"
-conf_year = "2020"
+publication = "International Conference on Machine Learning (ICML)"
+acceptance = "1184 out of 5513 submissions = 21%"
+conf_year = "2021"
 oral = ""
 awards = ""
 publication_short = ""
 
 
 # Abstract and optional shortened version.
-abstract = "We introduce a learning-based approach for room navigation using semantic maps. Our proposed architecture learns to predict top-down belief maps of regions that lie beyond the agent’s field of view while modeling architectural and stylistic regularities in houses. First, we train a model to generate amodal semantic top-down maps indicating beliefs of location, size, and shape of rooms by learning the underlying architectural patterns in houses. Next, we use these maps to predict a point that lies in the target room and train a policy to navigate to the point. We empirically demonstrate that by predicting semantic maps, the model learns common correlations found in houses and generalizes to novel environments. We also demonstrate that reducing the task of room navigation to point navigation improves the performance further. We will make our code publicly available and hope our work paves the way for further research in this space."
+abstract = "We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -47,11 +47,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2007.09841"
+url_pdf = "http://vladlen.info/papers/megaverse.pdf"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/alex-petrenko/megaverse"
 url_dataset = ""
-url_project = ""
+url_project = "https://www.megaverse.info"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -71,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "roomnav-teaser.jpg"
+image = "megaverse-teaser.jpg"
 caption = ""
 
 +++

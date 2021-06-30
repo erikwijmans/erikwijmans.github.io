@@ -1,10 +1,10 @@
 +++
-title = "Seeing the Un-Scene: Learning Amodal Semantic Maps for Room Navigation"
-date = 2020-07-03T15:10:07-04:00
+title = "Auxiliary Tasks and Exploration Enable ObjectNav"
+date = 2021-06-30T11:13:34-04:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darrell", "Dhruv Batra", "Devi Parikh", "Amanpreet Singh"]
+authors = ["Joel Ye", "Dhruv Batra", "Abhishek Das", "**Erik Wijmans**"]
 
 # Publication type.
 # Legend:
@@ -15,19 +15,19 @@ authors = ["Medhini Narasimhan", "**Erik Wijmans**", "Xinlei Chen", "Trevor Darr
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = []
+publication_types = [1]
 
 # Publication name and optional abbreviated version.
-publication = "European Conference on Computer Vision (ECCV)"
-acceptance = "Acceptance: 1361 out of 5025 submissions = 27%"
-conf_year = "2020"
+publication = "arXiv"
+acceptance = ""
+conf_year = ""
 oral = ""
 awards = ""
 publication_short = ""
 
 
 # Abstract and optional shortened version.
-abstract = "We introduce a learning-based approach for room navigation using semantic maps. Our proposed architecture learns to predict top-down belief maps of regions that lie beyond the agent’s field of view while modeling architectural and stylistic regularities in houses. First, we train a model to generate amodal semantic top-down maps indicating beliefs of location, size, and shape of rooms by learning the underlying architectural patterns in houses. Next, we use these maps to predict a point that lies in the target room and train a policy to navigate to the point. We empirically demonstrate that by predicting semantic maps, the model learns common correlations found in houses and generalizes to novel environments. We also demonstrate that reducing the task of room navigation to point navigation improves the performance further. We will make our code publicly available and hope our work paves the way for further research in this space."
+abstract = "ObjectGoal Navigation (ObjectNav) is an embodied task wherein agents are to navigate to an object instance in an unseen environment. Prior works have shown that end-to-end ObjectNav agents that use vanilla visual and recurrent modules, e.g. a CNN+RNN, perform poorly due to overfitting and sample inefficiency. This has motivated current state-of-the-art methods to mix analytic and learned components and operate on explicit spatial maps of the environment. We instead re-enable a generic learned agent by adding auxiliary learning tasks and an exploration reward. Our agents achieve 24.5% success and 8.1% SPL, a 37% and 8% relative improvement over prior state-of-the-art (Chaplot et al 2020), respectively, on the Habitat ObjectNav Challenge. From our analysis, we propose that agents will act to simplify their visual inputs so as to smooth their RNN dynamics, and that auxiliary tasks reduce overfitting by minimizing effective RNN dimensionality; i.e. a performant ObjectNav agent that must maintain coherent plans over long horizons does so by learning smooth, low-dimensional recurrent dynamics."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -47,11 +47,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2007.09841"
+url_pdf = "https://arxiv.org/abs/2104.04112"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/joel99/objectnav"
 url_dataset = ""
-url_project = ""
+url_project = "https://joel99.github.io/objectnav/"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -71,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "roomnav-teaser.jpg"
+image = "aux-tasks-obj-nav-teaser.png"
 caption = ""
 
 +++

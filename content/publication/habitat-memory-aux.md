@@ -19,7 +19,7 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Conference on Robot Learning (CoRL)"
-acceptance = "Acceptance: 165 out of 460 submission = 36%"
+acceptance = "Acceptance: 165 out of 460 submissions = 36%"
 conf_year = "2020"
 oral = ""
 awards = ""
