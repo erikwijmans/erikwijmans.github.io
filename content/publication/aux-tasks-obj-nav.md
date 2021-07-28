@@ -18,9 +18,9 @@ authors = ["Joel Ye", "Dhruv Batra", "Abhishek Das", "**Erik Wijmans**"]
 publication_types = [1]
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
-acceptance = ""
-conf_year = ""
+publication = "International Conference on Computer Vision (ICCV)"
+acceptance = "1617 out of 6236 submissions = 26%"
+conf_year = "2021"
 oral = ""
 awards = ""
 publication_short = ""
