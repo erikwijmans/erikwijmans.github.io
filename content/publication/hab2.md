@@ -18,10 +18,10 @@ authors = ["Andrew Szot", "Alex Clegg", "Eric Undersander", "**Erik Wijmans**", 
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "Neural Information Processing Systems (NeurIPS)"
 acceptance = ""
-conf_year = ""
-oral = ""
+conf_year = "2021"
+oral = "top 3% of 9122 submissions"
 awards = ""
 publication_short = ""
 
