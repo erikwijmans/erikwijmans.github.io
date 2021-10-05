@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI</title>
+      <link>https://wijmans.xyz/publication/hm3d/</link>
+      <pubDate>Tue, 05 Oct 2021 18:28:47 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/hm3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Megaverse Hacker News</title>
       <link>https://wijmans.xyz/press/megaverse-hacker-news/</link>
       <pubDate>Sat, 31 Jul 2021 14:36:42 -0400</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Tue, 23 Jun 2020 22:21:06 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/objectnav-white-paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames</title>
-      <link>https://wijmans.xyz/talk/ddppo-iclr-2020/</link>
-      <pubDate>Mon, 15 Jun 2020 21:21:35 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/talk/ddppo-iclr-2020/</guid>
       <description></description>
     </item>
     
