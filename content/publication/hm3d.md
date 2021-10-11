@@ -18,7 +18,7 @@ authors = ["Santhosh K. Ramakrishnan", "Aaron Gokaslan", "**Erik Wijmans**", "Ol
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "Neural Information Processing Systems Track on Datasets and Benchmarks"
 acceptance = ""
 conf_year = ""
 oral = ""
