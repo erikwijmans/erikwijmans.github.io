@@ -21,7 +21,7 @@ weight = 5
 [[education.courses]]
   course = "PhD, Computer Science"
   institution = "Georgia Institute of Technology"
-  year = "2022 (Expected)"
+  year = "2022"
 
 [[education.courses]]
   course = "Bachelor of Science, Computer Engineering, Summa Cum Laude"
@@ -38,8 +38,8 @@ weight = 5
 
 # About Me
 
-I am a PhD student at the Georgia Institute of Technology studying computer science. I am advised by
-[Irfan Essa][IS] and [Dhruv Batra][DB] and have the
+I received my PhD in computer science from the Georgia Institute of Technology in 2022. I was advised by
+[Irfan Essa][IS] and [Dhruv Batra][DB] and had the
 pleasure of working closely with
 [Devi Parikh][DP].  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.

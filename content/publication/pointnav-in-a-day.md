@@ -18,9 +18,9 @@ authors = ["**Erik Wijmans**", "Irfan Essa", "Dhruv Batra"]
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
 acceptance = ""
-conf_year = ""
+conf_year = "2022"
 oral = ""
 awards = ""
 publication_short = ""

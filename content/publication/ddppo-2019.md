@@ -47,7 +47,7 @@ tags = []
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/1911.00357"
 url_preprint = ""
-url_code = "https://github.com/facebookresearch/habitat-api/tree/master/habitat_baselines/rl/ddppo"
+url_code = "https://github.com/facebookresearch/habitat-api/tree/main/habitat_baselines/rl/ddppo"
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -74,7 +74,7 @@ caption = ""
 
 +++
 
-# Intro
+# Introduction
 
 We present Decentralized Distributed PPO (DD-PPO).  DD-PPO is synchronous and simple to implement.  We leverage DD-PPO to achieve
 state of art results on the [Habitat Autonomous Navigation Challenge 2019](https://aihabitat.org/challenge/) and "solve" the task
