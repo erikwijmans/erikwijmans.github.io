@@ -18,10 +18,10 @@
       
     
   
-  <meta name="description" content="We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research.">
+  <meta name="description" content="We present Variable Experience Rollout (VER), a technique for efficiently scaling batched on-policy reinforcement learning in heterogenous environments (where different environments take vastly different times for generating rollouts) to many GPUs residing on, potentially, many machines. VER combines the strengths of and blurs the line between synchronous and asynchronous on-policy RL methods (SyncOnRL and AsyncOnRL, respectively). Specifically, it learns from on-policy experience (like SyncOnRL) and has no synchronization points (like AsyncOnRL), enabling high throughput. We find that VER leads to significant and consistent speed-ups across a broad range of embodied navigation and mobile manipulation tasks in photorealistic 3D simulation environments. Specifically, for PointGoal navigation and ObjectGoal navigation in Habitat 1.0, VER is 60-100% faster (1.6-2x speedup) than DD-PPO, the current state of art for distributed SyncOnRL, with similar sample efficiency. For mobile manipulation tasks (open fridge/cabinet, pick/place objects) in Habitat 2.0 VER is 150% faster (2.5x speedup) on 1 GPU and 170% faster (2.7x speedup) on 8 GPUs than DD-PPO. Compared to SampleFactory (the current state-of-the-art AsyncOnRL), VER matches its speed on 1 GPU, and is 70% faster (1.7x speedup) on 8 GPUs with better sample efficiency. We leverage these speed-ups to train chained skills for GeometricGoal rearrangement tasks in the Home Assistant Benchmark (HAB). We find a surprising emergence of navigation in skills that do not ostensible require any navigation. Specifically, the Pick skill involves a robot picking an object from a table. During training the robot was always spawned close to the table and never needed to navigate. However, we find that if base movement is part of the action space, the robot learns to navigate then pick an object in new environments with 50% success, demonstrating surprisingly high out-of-distribution generalization.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/megaverse/">
+  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/ver/">
 
   
 
@@ -70,7 +70,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://wijmans.xyz/publication/megaverse/">
+  <link rel="canonical" href="https://wijmans.xyz/publication/ver/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -78,19 +78,19 @@
   <meta property="twitter:creator" content="@erikwijmans">
   
   <meta property="og:site_name" content="Erik Wijmans">
-  <meta property="og:url" content="https://wijmans.xyz/publication/megaverse/">
-  <meta property="og:title" content="Megaverse: Simulating Embodied Agents at One Million Experiences per Second | Erik Wijmans">
-  <meta property="og:description" content="We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research."><meta property="og:image" content="https://wijmans.xyz/img/megaverse-teaser.jpg">
+  <meta property="og:url" content="https://wijmans.xyz/publication/ver/">
+  <meta property="og:title" content="VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement | Erik Wijmans">
+  <meta property="og:description" content="We present Variable Experience Rollout (VER), a technique for efficiently scaling batched on-policy reinforcement learning in heterogenous environments (where different environments take vastly different times for generating rollouts) to many GPUs residing on, potentially, many machines. VER combines the strengths of and blurs the line between synchronous and asynchronous on-policy RL methods (SyncOnRL and AsyncOnRL, respectively). Specifically, it learns from on-policy experience (like SyncOnRL) and has no synchronization points (like AsyncOnRL), enabling high throughput. We find that VER leads to significant and consistent speed-ups across a broad range of embodied navigation and mobile manipulation tasks in photorealistic 3D simulation environments. Specifically, for PointGoal navigation and ObjectGoal navigation in Habitat 1.0, VER is 60-100% faster (1.6-2x speedup) than DD-PPO, the current state of art for distributed SyncOnRL, with similar sample efficiency. For mobile manipulation tasks (open fridge/cabinet, pick/place objects) in Habitat 2.0 VER is 150% faster (2.5x speedup) on 1 GPU and 170% faster (2.7x speedup) on 8 GPUs than DD-PPO. Compared to SampleFactory (the current state-of-the-art AsyncOnRL), VER matches its speed on 1 GPU, and is 70% faster (1.7x speedup) on 8 GPUs with better sample efficiency. We leverage these speed-ups to train chained skills for GeometricGoal rearrangement tasks in the Home Assistant Benchmark (HAB). We find a surprising emergence of navigation in skills that do not ostensible require any navigation. Specifically, the Pick skill involves a robot picking an object from a table. During training the robot was always spawned close to the table and never needed to navigate. However, we find that if base movement is part of the action space, the robot learns to navigate then pick an object in new environments with 50% success, demonstrating surprisingly high out-of-distribution generalization."><meta property="og:image" content="https://wijmans.xyz/img/ver-website-teaser.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-06-30T11:13:16-04:00">
+  <meta property="article:published_time" content="2022-08-28T14:53:59-04:00">
   
-  <meta property="article:modified_time" content="2021-06-30T11:13:16-04:00">
-  
-
+  <meta property="article:modified_time" content="2022-08-28T14:53:59-04:00">
   
 
-  <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second | Erik Wijmans</title>
+  
+
+  <title>VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement | Erik Wijmans</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -227,17 +227,17 @@
 
   
 <div class="article-header">
-  <img src="/img/megaverse-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
+  <img src="/img/ver-website-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
   
 </div>
 
 
 
   <div class="article-container">
-    <h1 itemprop="name">Megaverse: Simulating Embodied Agents at One Million Experiences per Second</h1>
+    <h1 itemprop="name">VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</h1>
     <span class="pub-authors" itemprop="author">
       
-      Aleksei Petrenko, <strong>Erik Wijmans</strong>, Brennan Shacklett, Vladlen Koltun
+      <strong>Erik Wijmans</strong>, Irfan Essa, Dhruv Batra
       
     </span>
     <span class="pull-right">
@@ -249,7 +249,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research.</p>
+    <p class="pub-abstract" itemprop="text">We present Variable Experience Rollout (VER), a technique for efficiently scaling batched on-policy reinforcement learning in heterogenous environments (where different environments take vastly different times for generating rollouts) to many GPUs residing on, potentially, many machines. VER combines the strengths of and blurs the line between synchronous and asynchronous on-policy RL methods (SyncOnRL and AsyncOnRL, respectively). Specifically, it learns from on-policy experience (like SyncOnRL) and has no synchronization points (like AsyncOnRL), enabling high throughput. We find that VER leads to significant and consistent speed-ups across a broad range of embodied navigation and mobile manipulation tasks in photorealistic 3D simulation environments. Specifically, for PointGoal navigation and ObjectGoal navigation in Habitat 1.0, VER is 60-100% faster (1.6-2x speedup) than DD-PPO, the current state of art for distributed SyncOnRL, with similar sample efficiency. For mobile manipulation tasks (open fridge/cabinet, pick/place objects) in Habitat 2.0 VER is 150% faster (2.5x speedup) on 1 GPU and 170% faster (2.7x speedup) on 8 GPUs than DD-PPO. Compared to SampleFactory (the current state-of-the-art AsyncOnRL), VER matches its speed on 1 GPU, and is 70% faster (1.7x speedup) on 8 GPUs with better sample efficiency. We leverage these speed-ups to train chained skills for GeometricGoal rearrangement tasks in the Home Assistant Benchmark (HAB). We find a surprising emergence of navigation in skills that do not ostensible require any navigation. Specifically, the Pick skill involves a robot picking an object from a table. During training the robot was always spawned close to the table and never needed to navigate. However, we find that if base movement is part of the action space, the robot learns to navigate then pick an object in new environments with 50% success, demonstrating surprisingly high out-of-distribution generalization.</p>
     
 
     
@@ -260,8 +260,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -278,7 +278,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">International Conference on Machine Learning (ICML)</div>
+          <div class="col-xs-12 col-sm-9">Neural Information Processing Systems (NeurIPS)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -299,24 +299,17 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://vladlen.info/papers/megaverse.pdf" target="_blank" rel="noopener">
-  Paper
-</a>
 
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://github.com/alex-petrenko/megaverse" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://github.com/facebookresearch/habitat-api/tree/main/habitat_baselines/rl/ver" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.megaverse.info" target="_blank" rel="noopener">
-  Project
-</a>
 
 
 
@@ -324,11 +317,6 @@
 
 
 
-
-
-<a class="btn btn-primary btn-outline press-coverage-btn" href="/#megaverse" data-target="#megaverse">
-  Press Coverage
-</a>
 
 
 
@@ -341,7 +329,10 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style">
+
+<h1 id="introduction">Introduction</h1>
+</div>
 
     
 

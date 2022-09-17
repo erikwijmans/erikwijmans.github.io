@@ -18,10 +18,10 @@
       
     
   
-  <meta name="description" content="We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research.">
+  <meta name="description" content="Can an autonomous agent navigate in a new environment without building an explicit map? For the task of PointGoal navigation (&#39;Go to delta-x, delta-y&#39;) under idealized settings (no RGB-D and actuation noise, perfect GPS&#43;Compass), the answer is a clear &#39;yes&#39; - map-less neural models composed of task-agnostic components (CNNs and RNNs) trained with large-scale reinforcement learning achieve 100% Success on a standard dataset (Gibson). However, for PointNav in a realistic setting (RGB-D and actuation noise, no GPS&#43;Compass), this is an open question; one we tackle in this paper. The strongest published result for this task is 71.7% Success. First, we identify the main (perhaps, only) cause of the drop in performance: the absence of GPS&#43;Compass. An agent with perfect GPS&#43;Compass faced with RGB-D sensing and actuation noise achieves 99.8% Success (Gibson-v2 val). This suggests that (to paraphrase a meme) robust visual odometry is all we need for realistic PointNav; if we can achieve that, we can ignore the sensing and actuation noise. With that as our operating hypothesis, we scale the dataset and model size, and develop human-annotation-free data-augmentation techniques to train models for visual odometry. We advance the state of art on the Habitat Realistic PointNav Challenge from 71% to 94% Success (&#43;23, 31% relative) and 53% to 74% SPL (&#43;21, 40% relative). While our approach does not saturate or &#39;solve&#39; this dataset, this strong improvement combined with promising zero-shot sim2real transfer (to a LoCoBot) provides evidence consistent with the hypothesis that explicit mapping may not be necessary for navigation, even in a realistic setting.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/megaverse/">
+  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/mapping-for-pn/">
 
   
 
@@ -70,7 +70,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://wijmans.xyz/publication/megaverse/">
+  <link rel="canonical" href="https://wijmans.xyz/publication/mapping-for-pn/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -78,19 +78,19 @@
   <meta property="twitter:creator" content="@erikwijmans">
   
   <meta property="og:site_name" content="Erik Wijmans">
-  <meta property="og:url" content="https://wijmans.xyz/publication/megaverse/">
-  <meta property="og:title" content="Megaverse: Simulating Embodied Agents at One Million Experiences per Second | Erik Wijmans">
-  <meta property="og:description" content="We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research."><meta property="og:image" content="https://wijmans.xyz/img/megaverse-teaser.jpg">
+  <meta property="og:url" content="https://wijmans.xyz/publication/mapping-for-pn/">
+  <meta property="og:title" content="Is Mapping Necessary for Realistic PointGoal Navigation? | Erik Wijmans">
+  <meta property="og:description" content="Can an autonomous agent navigate in a new environment without building an explicit map? For the task of PointGoal navigation (&#39;Go to delta-x, delta-y&#39;) under idealized settings (no RGB-D and actuation noise, perfect GPS&#43;Compass), the answer is a clear &#39;yes&#39; - map-less neural models composed of task-agnostic components (CNNs and RNNs) trained with large-scale reinforcement learning achieve 100% Success on a standard dataset (Gibson). However, for PointNav in a realistic setting (RGB-D and actuation noise, no GPS&#43;Compass), this is an open question; one we tackle in this paper. The strongest published result for this task is 71.7% Success. First, we identify the main (perhaps, only) cause of the drop in performance: the absence of GPS&#43;Compass. An agent with perfect GPS&#43;Compass faced with RGB-D sensing and actuation noise achieves 99.8% Success (Gibson-v2 val). This suggests that (to paraphrase a meme) robust visual odometry is all we need for realistic PointNav; if we can achieve that, we can ignore the sensing and actuation noise. With that as our operating hypothesis, we scale the dataset and model size, and develop human-annotation-free data-augmentation techniques to train models for visual odometry. We advance the state of art on the Habitat Realistic PointNav Challenge from 71% to 94% Success (&#43;23, 31% relative) and 53% to 74% SPL (&#43;21, 40% relative). While our approach does not saturate or &#39;solve&#39; this dataset, this strong improvement combined with promising zero-shot sim2real transfer (to a LoCoBot) provides evidence consistent with the hypothesis that explicit mapping may not be necessary for navigation, even in a realistic setting."><meta property="og:image" content="https://wijmans.xyz/img/mapping-for-pn-teaser.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-06-30T11:13:16-04:00">
+  <meta property="article:published_time" content="2022-08-27T15:05:01-04:00">
   
-  <meta property="article:modified_time" content="2021-06-30T11:13:16-04:00">
-  
-
+  <meta property="article:modified_time" content="2022-08-27T15:05:01-04:00">
   
 
-  <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second | Erik Wijmans</title>
+  
+
+  <title>Is Mapping Necessary for Realistic PointGoal Navigation? | Erik Wijmans</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -227,17 +227,17 @@
 
   
 <div class="article-header">
-  <img src="/img/megaverse-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
+  <img src="/img/mapping-for-pn-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
   
 </div>
 
 
 
   <div class="article-container">
-    <h1 itemprop="name">Megaverse: Simulating Embodied Agents at One Million Experiences per Second</h1>
+    <h1 itemprop="name">Is Mapping Necessary for Realistic PointGoal Navigation?</h1>
     <span class="pub-authors" itemprop="author">
       
-      Aleksei Petrenko, <strong>Erik Wijmans</strong>, Brennan Shacklett, Vladlen Koltun
+      Ruslan Partsey, <strong>Erik Wijmans</strong>, Naoki Yokoyama, Oles Dobosevych, Dhruv Batra, Oleksandr Maksymets
       
     </span>
     <span class="pull-right">
@@ -249,7 +249,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present Megaverse, a new 3D simulation platform for reinforcement learning and embodied AI research. The efficient design of our engine enables physics-based simulation with high-dimensional egocentric observations at more than 1,000,000 actions per second on a single 8-GPU node. Megaverse is up to 70x faster than DeepMind Lab in fully-shaded 3D scenes with interactive objects. We achieve this high simulation performance by leveraging batched simulation, thereby taking full advantage of the massive parallelism of modern GPUs. We use Megaverse to build a new benchmark that consists of several single-agent and multi-agent tasks covering a variety of cognitive challenges. We evaluate model-free RL on this benchmark to provide baselines and facilitate future research.</p>
+    <p class="pub-abstract" itemprop="text">Can an autonomous agent navigate in a new environment without building an explicit map? For the task of PointGoal navigation (&lsquo;Go to delta-x, delta-y&rsquo;) under idealized settings (no RGB-D and actuation noise, perfect GPS+Compass), the answer is a clear &lsquo;yes&rsquo; - map-less neural models composed of task-agnostic components (CNNs and RNNs) trained with large-scale reinforcement learning achieve 100% Success on a standard dataset (Gibson). However, for PointNav in a realistic setting (RGB-D and actuation noise, no GPS+Compass), this is an open question; one we tackle in this paper. The strongest published result for this task is 71.7% Success. First, we identify the main (perhaps, only) cause of the drop in performance: the absence of GPS+Compass. An agent with perfect GPS+Compass faced with RGB-D sensing and actuation noise achieves 99.8% Success (Gibson-v2 val). This suggests that (to paraphrase a meme) robust visual odometry is all we need for realistic PointNav; if we can achieve that, we can ignore the sensing and actuation noise. With that as our operating hypothesis, we scale the dataset and model size, and develop human-annotation-free data-augmentation techniques to train models for visual odometry. We advance the state of art on the Habitat Realistic PointNav Challenge from 71% to 94% Success (+23, 31% relative) and 53% to 74% SPL (+21, 40% relative). While our approach does not saturate or &lsquo;solve&rsquo; this dataset, this strong improvement combined with promising zero-shot sim2real transfer (to a LoCoBot) provides evidence consistent with the hypothesis that explicit mapping may not be necessary for navigation, even in a realistic setting.</p>
     
 
     
@@ -278,7 +278,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">International Conference on Machine Learning (ICML)</div>
+          <div class="col-xs-12 col-sm-9">Computer Vision and Pattern Recognition (CVPR)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -299,7 +299,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://vladlen.info/papers/megaverse.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2206.00997" target="_blank" rel="noopener">
   Paper
 </a>
 
@@ -307,14 +307,14 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/alex-petrenko/megaverse" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://github.com/rpartsey/pointgoal-navigation" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.megaverse.info" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://rpartsey.github.io/pointgoalnav/" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -325,10 +325,6 @@
 
 
 
-
-<a class="btn btn-primary btn-outline press-coverage-btn" href="/#megaverse" data-target="#megaverse">
-  Press Coverage
-</a>
 
 
 

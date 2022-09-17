@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://wijmans.xyz/publication/ver/</loc>
+      <lastmod>2022-08-28T14:53:59-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication/mapping-for-pn/</loc>
+      <lastmod>2022-08-27T15:05:01-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://wijmans.xyz/publication/hm3d/</loc>
       <lastmod>2021-10-05T18:28:47-04:00</lastmod>
     </url>
@@ -420,7 +438,17 @@
     <url>
     
       <loc>https://wijmans.xyz/publication_types/1/</loc>
-      <lastmod>2021-06-30T11:13:34-04:00</lastmod>
+      <lastmod>2022-08-27T15:05:01-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wijmans.xyz/publication_types/2/</loc>
+      <lastmod>2022-08-28T14:53:59-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -449,7 +477,7 @@
     <url>
     
       <loc>https://wijmans.xyz/publication_types/</loc>
-      <lastmod>2021-06-30T11:13:34-04:00</lastmod>
+      <lastmod>2022-08-27T15:05:01-04:00</lastmod>
       <priority>0</priority>
     </url>
     

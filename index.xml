@@ -11,6 +11,27 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</title>
+      <link>https://wijmans.xyz/publication/ver/</link>
+      <pubDate>Sun, 28 Aug 2022 14:53:59 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/ver/</guid>
+      <description>
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is Mapping Necessary for Realistic PointGoal Navigation?</title>
+      <link>https://wijmans.xyz/publication/mapping-for-pn/</link>
+      <pubDate>Sat, 27 Aug 2022 15:05:01 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/mapping-for-pn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI</title>
       <link>https://wijmans.xyz/publication/hm3d/</link>
       <pubDate>Tue, 05 Oct 2021 18:28:47 -0400</pubDate>
@@ -124,24 +145,6 @@
       <pubDate>Thu, 09 Jul 2020 20:50:26 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/habitat-memory-aux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seeing the Un-Scene: Learning Amodal Semantic Maps for Room Navigation</title>
-      <link>https://wijmans.xyz/publication/roomnav-ecc2020/</link>
-      <pubDate>Fri, 03 Jul 2020 15:10:07 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/roomnav-ecc2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ObjectNav Revisited: On Evaluation of Embodied Agents Navigating to Objects</title>
-      <link>https://wijmans.xyz/publication/objectnav-white-paper/</link>
-      <pubDate>Tue, 23 Jun 2020 22:21:06 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/objectnav-white-paper/</guid>
       <description></description>
     </item>
     
