@@ -235,6 +235,9 @@
     <h2><a href="https://wijmans.xyz/publication/ver/">VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</a></h2>
     <div class="article-style">
       
+      Introduction How can we combine the benefit of synchronous (high sample efficiency) and asynchronous (high throughput) systems for batched on-policy reinforcement learning?
+Systems for batched on-policy reinforcement learning collect experience from many (N) environments simultaneously using the policy and update it with this cumulative experience. They are broadly divided into two classes: synchronous (Sync) and asynchronous (Aync). Sync contains two synchronization points: first the policy is executed for the entire batch $(o_t \rightarrow a<em>t)^B</em>{b=1}$ (A), then actions are executed in all environments, $(s_t, a<em>t \rightarrow s</em>{t+1}, o<em>{t+1})^B</em>{b=1}$ (B), until $T$ steps have been collected from all $N$ environments.
+      
     </div>
   </div>
   

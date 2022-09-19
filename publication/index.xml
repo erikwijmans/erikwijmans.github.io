@@ -18,7 +18,8 @@
       <pubDate>Sun, 28 Aug 2022 14:53:59 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/ver/</guid>
-      <description> Introduction </description>
+      <description>Introduction How can we combine the benefit of synchronous (high sample efficiency) and asynchronous (high throughput) systems for batched on-policy reinforcement learning?
+Systems for batched on-policy reinforcement learning collect experience from many (N) environments simultaneously using the policy and update it with this cumulative experience. They are broadly divided into two classes: synchronous (Sync) and asynchronous (Aync). Sync contains two synchronization points: first the policy is executed for the entire batch $(o_t \rightarrow a_t)^B_{b=1}$ (A), then actions are executed in all environments, $(s_t, a_t \rightarrow s_{t+1}, o_{t+1})^B_{b=1}$ (B), until $T$ steps have been collected from all $N$ environments.</description>
     </item>
     
     <item>
