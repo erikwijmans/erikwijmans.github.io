@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Sat, 27 Aug 2022 15:05:01 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Aug 2022 14:53:59 -0400</lastBuildDate>
     
 	<atom:link href="https://wijmans.xyz/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,9 @@
     <item>
       <title>1</title>
       <link>https://wijmans.xyz/publication_types/1/</link>
-      <pubDate>Sat, 27 Aug 2022 15:05:01 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication_types/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2</title>
-      <link>https://wijmans.xyz/publication_types/2/</link>
       <pubDate>Sun, 28 Aug 2022 14:53:59 -0400</pubDate>
       
-      <guid>https://wijmans.xyz/publication_types/2/</guid>
+      <guid>https://wijmans.xyz/publication_types/1/</guid>
       <description></description>
     </item>
     
