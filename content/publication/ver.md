@@ -15,7 +15,7 @@ authors = ["**Erik Wijmans**", "Irfan Essa", "Dhruv Batra"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = [2]
+publication_types = [1]
 
 # Publication name and optional abbreviated version.
 publication = "Neural Information Processing Systems (NeurIPS)"
