@@ -47,7 +47,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://arxiv.org/abs/2210.05064"
 url_preprint = ""
 url_code = "https://github.com/facebookresearch/habitat-lab/tree/main/habitat-baselines/habitat_baselines/rl/ver"
 url_dataset = ""
