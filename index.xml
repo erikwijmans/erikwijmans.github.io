@@ -53,7 +53,7 @@ The inspiration for VER comes from two key observations:&lt;/p&gt;
 &lt;li&gt;Aync mitigates the straggler effect by implicitly collecting a variable amount of experience from each environment &amp;ndash; more from fast-to-simulate environments and less from slow ones.&lt;/li&gt;
 &lt;li&gt;Both Sync and Aync
 use a fixed rollout length, $T$ steps of experience.
-Our key insight is that while a fixed rollout length may simplify an implementation, it is \emph{not} a requirement for RL.&lt;/li&gt;
+Our key insight is that while a fixed rollout length may simplify an implementation, it is &lt;em&gt;not&lt;/em&gt; a requirement for RL.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;These two key observations naturally  lead us to
@@ -71,7 +71,7 @@ To enable efficient scaling to multiple GPUs, we combine VER with the decentrali
 
 &lt;p&gt;&lt;img src=&#34;https://wijmans.xyz/files/ver-post/ver-nav-benchmarking.jpg&#34; alt=&#34;VER compared to DD-PPO on navigation tasks&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;First, we evaluate VER on well-established embodied navigation tasks using &lt;a href=&#34;https://wijmans.xyz/publication/hab2&#34;&gt;Habitat 1.0&lt;/a&gt;
+&lt;p&gt;First, we evaluate VER on well-established embodied navigation tasks using &lt;a href=&#34;https://wijmans.xyz/publication/ai-habitat&#34;&gt;Habitat 1.0&lt;/a&gt;
 on 8 GPUs.
 VER trains PointGoal navigation 60% faster than
 DD-PPO, the current state-of-the-art for distributed on-policy RL, with the same sample efficiency.
@@ -112,6 +112,8 @@ In principle, Pick and Place policies do not &lt;em&gt;need&lt;/em&gt; to naviga
 Specifically, TP-SRL &lt;em&gt;without a navigation skill&lt;/em&gt; achieves 50% success on NavPick and 20% success on a NavPickNavPlace task simply because the Pick and Pace skills have learned to navigate (sometimes across the room!).
 TP-SRL with a Navigate skill performs even stronger: 90% on NavPickNavPlace and 32% on 5 successive NavPickNavPlaces (called Tidy House), which are +32% and +30% absolute improvements over Szot et al 2021, respectively.
 Prepare Groceries and Set Table, which both require interaction with articulated receptacles (fridge, drawer), remain as open problems (5% and 0% Success, respectively) and are the next frontiers.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve found this interesting, you can read the full paper &lt;a href=&#34;TODO&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Above is the introduction (albeit slightly modified), so are many interesting details that weren&amp;rsquo;t covered.&lt;/p&gt;
 
 &lt;h2 id=&#34;example-of-tp-srl-without-a-navigation-skill&#34;&gt;Example of TP-SRL without a navigation skill&lt;/h2&gt;
 

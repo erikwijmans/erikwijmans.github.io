@@ -303,7 +303,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/facebookresearch/habitat-api/tree/main/habitat_baselines/rl/ver" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://github.com/facebookresearch/habitat-lab/tree/main/habitat-baselines/habitat_baselines/rl/ver" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -366,7 +366,7 @@ The inspiration for VER comes from two key observations:</p>
 <li>Aync mitigates the straggler effect by implicitly collecting a variable amount of experience from each environment &ndash; more from fast-to-simulate environments and less from slow ones.</li>
 <li>Both Sync and Aync
 use a fixed rollout length, $T$ steps of experience.
-Our key insight is that while a fixed rollout length may simplify an implementation, it is \emph{not} a requirement for RL.</li>
+Our key insight is that while a fixed rollout length may simplify an implementation, it is <em>not</em> a requirement for RL.</li>
 </ul>
 
 <p>These two key observations naturally  lead us to
@@ -384,7 +384,7 @@ To enable efficient scaling to multiple GPUs, we combine VER with the decentrali
 
 <p><img src="/files/ver-post/ver-nav-benchmarking.jpg" alt="VER compared to DD-PPO on navigation tasks" /></p>
 
-<p>First, we evaluate VER on well-established embodied navigation tasks using <a href="/publication/hab2">Habitat 1.0</a>
+<p>First, we evaluate VER on well-established embodied navigation tasks using <a href="/publication/ai-habitat">Habitat 1.0</a>
 on 8 GPUs.
 VER trains PointGoal navigation 60% faster than
 DD-PPO, the current state-of-the-art for distributed on-policy RL, with the same sample efficiency.
@@ -425,6 +425,8 @@ In principle, Pick and Place policies do not <em>need</em> to navigate during tr
 Specifically, TP-SRL <em>without a navigation skill</em> achieves 50% success on NavPick and 20% success on a NavPickNavPlace task simply because the Pick and Pace skills have learned to navigate (sometimes across the room!).
 TP-SRL with a Navigate skill performs even stronger: 90% on NavPickNavPlace and 32% on 5 successive NavPickNavPlaces (called Tidy House), which are +32% and +30% absolute improvements over Szot et al 2021, respectively.
 Prepare Groceries and Set Table, which both require interaction with articulated receptacles (fridge, drawer), remain as open problems (5% and 0% Success, respectively) and are the next frontiers.</p>
+
+<p>If you&rsquo;ve found this interesting, you can read the full paper <a href="TODO" target="_blank">here</a>. Above is the introduction (albeit slightly modified), so are many interesting details that weren&rsquo;t covered.</p>
 
 <h2 id="example-of-tp-srl-without-a-navigation-skill">Example of TP-SRL without a navigation skill</h2>
 
