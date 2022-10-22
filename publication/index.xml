@@ -59,6 +59,15 @@ Systems for batched on-policy reinforcement learning collect experience from man
     </item>
     
     <item>
+      <title>THDA: Treasure Hunt Data Augmentation for Semantic Navigation</title>
+      <link>https://wijmans.xyz/publication/thda/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:33 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/thda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second</title>
       <link>https://wijmans.xyz/publication/megaverse/</link>
       <pubDate>Wed, 30 Jun 2021 11:13:16 -0400</pubDate>

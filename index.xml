@@ -217,6 +217,15 @@ Prepare Groceries and Set Table, which both require interaction with articulated
     </item>
     
     <item>
+      <title>THDA: Treasure Hunt Data Augmentation for Semantic Navigation</title>
+      <link>https://wijmans.xyz/publication/thda/</link>
+      <pubDate>Wed, 30 Jun 2021 11:13:33 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/thda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second</title>
       <link>https://wijmans.xyz/publication/megaverse/</link>
       <pubDate>Wed, 30 Jun 2021 11:13:16 -0400</pubDate>
@@ -267,15 +276,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Fri, 18 Sep 2020 11:06:42 -0400</pubDate>
       
       <guid>https://wijmans.xyz/press/cnn-habitat-08-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Auxiliary Tasks Speed Up Learning PointGoal Navigation</title>
-      <link>https://wijmans.xyz/publication/habitat-memory-aux/</link>
-      <pubDate>Thu, 09 Jul 2020 20:50:26 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/habitat-memory-aux/</guid>
       <description></description>
     </item>
     
