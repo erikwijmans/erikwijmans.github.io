@@ -32,7 +32,8 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
+selected_groups = ["Large-scale Reinforcement Learning", "Navigation, Sim2Real, and Robotics"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

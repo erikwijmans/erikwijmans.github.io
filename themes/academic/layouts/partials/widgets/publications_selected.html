@@ -3,31 +3,58 @@
 
 <!-- Selected Publications widget -->
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-xs-12 col-md-12 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+    <p class="view-all">
+      <a href="{{ "/publication/" | relLangURL }}">
+        <h2>
+          {{ i18n "more_publications" | markdownify }}
+          <i class="fa fa-angle-double-right"></i>
+        </h2>
+      </a>
+    </p>
+    <div class="pub-publication">
+
+      {{/*  <p>Much of the following work is synthesized together in my <a href="">Thesis</a></p>  */}}
+    </div>
   </div>
-  <div class="col-xs-12 col-md-8">
-    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+  <div class="col-xs-12 col-md-12">
+    {{/*  {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}  */}}
 
     {{ if and ($page.Params.publication_type) (ne $page.Params.publication_type "-1") }}
       {{ $.Scratch.Set "sel_pubs" (where (where (where $.Site.RegularPages "Type" "publication") ".Params.selected" true) ".Params.publication_types" "intersect" (slice $page.Params.publication_type)) }}
     {{ else }}
       {{ $.Scratch.Set "sel_pubs" (where (where $.Site.RegularPages "Type" "publication") ".Params.selected" true) }}
     {{ end }}
-
     {{ $sel_pubs := $.Scratch.Get "sel_pubs" }}
+
+    {{ $all_groups := slice }}
     {{ range $sel_pubs }}
-      {{ if eq $page.Params.list_format 1 }}
-        {{ partial "publication_li_detailed" . }}
-      {{ else if eq $page.Params.list_format 2 }}
-        {{ partial "publication_li_apa" . }}
-      {{ else if eq $page.Params.list_format 3 }}
-        {{ partial "publication_li_mla" . }}
-      {{ else }}
-        {{ partial "publication_li_simple" . }}
+      {{ $all_groups = (union $all_groups .Params.selected_groups) }}
+    {{ end }}
+
+    {{ range $group := (sort $all_groups) }}
+
+      <h1 id="{{ $group | urlize }}" class="section-heading">
+        {{ $group | markdownify }}
+      </h1>
+
+      {{ range $sel_pubs }}
+        {{ if ne ( len (intersect .Params.selected_groups ( slice $group ) ) ) 0 }}
+          {{ if eq $page.Params.list_format 1 }}
+            {{ partial "publication_li_detailed" . }}
+          {{ else if eq $page.Params.list_format 2 }}
+            {{ partial "publication_li_apa" . }}
+          {{ else if eq $page.Params.list_format 3 }}
+            {{ partial "publication_li_mla" . }}
+          {{ else }}
+            {{ partial "publication_li_simple" . }}
+          {{ end }}
+        {{ end }}
       {{ end }}
     {{ end }}
+
 
   </div>
 </div>

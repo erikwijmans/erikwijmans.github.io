@@ -33,6 +33,7 @@ image_preview = "habitat_logo_text.svg"
 
 # Is this a selected publication? (true/false)
 selected = true
+selected_groups = ["3D Datasets and Fast Simulation for Embodied AI and Robotics"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

@@ -30,7 +30,8 @@ abstract_short = ""
 image_preview = "replica_tease.png"
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
+selected_groups = ["3D Datasets and Fast Simulation for Embodied AI and Robotics"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

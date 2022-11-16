@@ -38,6 +38,7 @@ weight = 5
 
 # About Me
 
+I am a research at Apple working with [Vladlen Koltun][VK].
 I received my PhD in computer science from the Georgia Institute of Technology in 2022. I was advised by
 [Irfan Essa][IS] and [Dhruv Batra][DB] and had the
 pleasure of working closely with
@@ -65,11 +66,6 @@ at Lehigh University.
 
 I also have the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@GT) and [Guillermo Nicolas Grande][NG] (1st year MS@GT), in research projects.
 
-
-## Updates
-
-* Organizing a tutorial at ECCV on AI Habitat [aihabitat.org/tutorial/2020](https://aihabitat.org/tutorial/2020)
-* Organizing a 2-day workshop on EmbodiedAI at CVPR2020 [embodied-ai.org](https://embodied-ai.org/)!  Also includes the 2020 Habitat Challenge [aihabitat.org/challenge/2020](https://aihabitat.org/challenge/2020)
 
 
 [IS]: http://prof.irfanessa.com
