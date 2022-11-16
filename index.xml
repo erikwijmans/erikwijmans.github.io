@@ -11,6 +11,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2021-22 Scholar Award fellowship from the Achievement Rewards for College Scientists (ARCS) Foundation</title>
+      <link>https://wijmans.xyz/award/arcs-2021/</link>
+      <pubDate>Wed, 16 Nov 2022 17:36:25 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/award/arcs-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Replica Neurohive</title>
+      <link>https://wijmans.xyz/press/replica-neurohive/</link>
+      <pubDate>Wed, 16 Nov 2022 17:30:19 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/press/replica-neurohive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hab2 Vb</title>
+      <link>https://wijmans.xyz/press/hab2-vb/</link>
+      <pubDate>Wed, 16 Nov 2022 17:28:30 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/press/hab2-vb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hab2 Tech Crunch</title>
+      <link>https://wijmans.xyz/press/hab2-tech-crunch/</link>
+      <pubDate>Wed, 16 Nov 2022 17:26:36 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/press/hab2-tech-crunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</title>
       <link>https://wijmans.xyz/publication/ver/</link>
       <pubDate>Sun, 28 Aug 2022 14:53:59 -0400</pubDate>
@@ -191,10 +227,10 @@ Prepare Groceries and Set Table, which both require interaction with articulated
     
     <item>
       <title>Hab2 Cnn</title>
-      <link>https://wijmans.xyz/press/hab2-cnn/</link>
+      <link>https://wijmans.xyz/press/hab2-cnet/</link>
       <pubDate>Wed, 30 Jun 2021 11:44:01 -0400</pubDate>
       
-      <guid>https://wijmans.xyz/press/hab2-cnn/</guid>
+      <guid>https://wijmans.xyz/press/hab2-cnet/</guid>
       <description></description>
     </item>
     
@@ -240,42 +276,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Wed, 31 Mar 2021 23:18:56 -0400</pubDate>
       
       <guid>https://wijmans.xyz/award/coc-gra-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Large Batch Simulation for Deep Reinforcement Learning</title>
-      <link>https://wijmans.xyz/publication/bps-iclr-2021/</link>
-      <pubDate>Sun, 14 Mar 2021 22:14:32 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/bps-iclr-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How to Train PointGoal Navigation Agents on a (Sample and Compute) Budget</title>
-      <link>https://wijmans.xyz/publication/pointnav-in-a-day/</link>
-      <pubDate>Mon, 14 Dec 2020 11:14:39 -0500</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/pointnav-in-a-day/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2020-21 Scholar Award fellowship from the Achievement Rewards for College Scientists (ARCS) Foundation</title>
-      <link>https://wijmans.xyz/award/arcs-20/</link>
-      <pubDate>Sun, 20 Sep 2020 11:38:56 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/award/arcs-20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cnn Habitat 08 2020</title>
-      <link>https://wijmans.xyz/press/cnn-habitat-08-2020/</link>
-      <pubDate>Fri, 18 Sep 2020 11:06:42 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/press/cnn-habitat-08-2020/</guid>
       <description></description>
     </item>
     
