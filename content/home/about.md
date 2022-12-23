@@ -38,7 +38,7 @@ weight = 5
 
 # About Me
 
-I am a research at Apple working with [Vladlen Koltun][VK].
+I am a research scientist at Apple working with [Vladlen Koltun][VK].
 I received my PhD in computer science from the Georgia Institute of Technology in 2022. I was advised by
 [Irfan Essa][IS] and [Dhruv Batra][DB] and had the
 pleasure of working closely with
