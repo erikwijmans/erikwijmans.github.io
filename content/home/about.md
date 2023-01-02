@@ -64,7 +64,7 @@ working with [Yinzhi Cao][YC] (now at JHU)
 at Lehigh University.
 
 
-During my PhD, had the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@GT) and [Guillermo Nicolas Grande][NG] (1st year MS@GT), in research projects.
+During my PhD, I had the pleasure of mentoring two students, [Joel Ye][JY] (MS@GT -> CMU PhD Student) and [Guillermo Nicolas Grande][NG] (MS@GT -> Microsoft), in research projects.
 
 
 
