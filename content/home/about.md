@@ -12,8 +12,7 @@ weight = 5
   interests = [
     "Embodied AI",
     "Computer Vision",
-    "Machine Learning",
-    "Artificial Intelligence",
+    "Reinforcement Learning",
   ]
 
 # List your qualifications (such as academic degrees).
@@ -22,6 +21,7 @@ weight = 5
   course = "PhD, Computer Science"
   institution = "Georgia Institute of Technology"
   year = "2022"
+  thesis = "[Emergence of Intelligent Navigation Behavior in Embodied Agents from Massive-Scale Simulation](https://smartech.gatech.edu/handle/1853/67238)"
 
 [[education.courses]]
   course = "Bachelor of Science, Computer Engineering, Summa Cum Laude"
@@ -45,7 +45,7 @@ pleasure of working closely with
 [Devi Parikh][DP].  My research interests are
 primarily focused on computer vision and its applications to artificial intelligence.
 My long-term research goal is to develop fundamental techniques, algorithms, 
-and large-scale systems for robotic assistants (i.e. Alexa with eyes and limbs).
+and large-scale systems for robotic assistants.
 My work focuses on training virtual robots (embodied agents) in simulation and transferring the skills learned to reality
 to overcome the challenges of real-world training (its slow, and expensive).
 
@@ -64,7 +64,7 @@ working with [Yinzhi Cao][YC] (now at JHU)
 at Lehigh University.
 
 
-I also have the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@GT) and [Guillermo Nicolas Grande][NG] (1st year MS@GT), in research projects.
+During my PhD, had the pleasure of mentoring two students, [Joel Ye][JY] (1st year MS@GT) and [Guillermo Nicolas Grande][NG] (1st year MS@GT), in research projects.
 
 
 

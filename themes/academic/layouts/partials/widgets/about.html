@@ -77,7 +77,10 @@
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
+              <p class="institution">{{ .institution }} </p>
+              {{ if .thesis }}
+                <p class="institution"> Thesis: {{ .thesis | markdownify }} </p>
+              {{ end }}
             </div>
           </li>
           {{ end }}
