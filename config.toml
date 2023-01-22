@@ -256,7 +256,7 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Recent Publications"
+  name = "Latest Publications"
   url = "#publications"
   weight = 3
 
