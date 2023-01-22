@@ -21,7 +21,7 @@ publication_types = [1]
 publication = "International Conference on Machine Learning (ICML)"
 acceptance = "1184 out of 5513 submissions = 21%"
 conf_year = "2021"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

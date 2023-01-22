@@ -21,7 +21,7 @@ publication_types = []
 publication = "Robotics and Automation Letters (RA-L) and Intelligent Robots and Systems (IROS)"
 acceptance = ""
 conf_year = "2020"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

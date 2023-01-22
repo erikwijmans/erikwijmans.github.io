@@ -19,7 +19,7 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "Computer Vision and Pattern Recognition (CVPR)"
-oral = "top 288 of 5160 submissions = top-5.5%"
+extra = "Oral talk, top 288 of 5160 submissions = top-5.5%"
 publication_short = ""
 
 # Abstract and optional shortened version.

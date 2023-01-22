@@ -21,7 +21,7 @@ publication_types = []
 publication = "International Conference on Learning Representations (ICLR)"
 acceptance = "Acceptance: 860 out of 2997 submissions = 28%"
 conf_year = "2021"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

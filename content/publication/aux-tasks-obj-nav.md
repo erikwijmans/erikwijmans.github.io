@@ -21,7 +21,7 @@ publication_types = [1]
 publication = "International Conference on Computer Vision (ICCV)"
 acceptance = "1617 out of 6236 submissions = 26%"
 conf_year = "2021"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

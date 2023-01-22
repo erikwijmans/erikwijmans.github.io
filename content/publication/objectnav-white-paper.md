@@ -21,7 +21,7 @@ publication_types = []
 publication = "arXiv"
 acceptance = ""
 conf_year = "2020"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

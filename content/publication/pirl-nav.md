@@ -1,10 +1,10 @@
 +++
-title = "Analyzing Visual Representations in Embodied Navigation Tasks"
-date = 2020-03-17T19:03:16-04:00
+title = "PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav"
+date = 2023-01-22T12:09:57-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Erik Wijmans**", "Julian Straub", "Dhruv Batra", "Irfan Essa", "Judy Hoffman", "Ari Morcos"]
+authors = ["Ram Ramrakhya", "Dhruv Batra", "**Erik Wijmans**", "Abhishek Das"]
 
 # Publication type.
 # Legend:
@@ -18,7 +18,7 @@ authors = ["**Erik Wijmans**", "Julian Straub", "Dhruv Batra", "Irfan Essa", "Ju
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "ICLR 2019 Workshop on Task-Agnostic Reinforcement Learning (TARL) and arXiv"
+publication = "arXiv"
 acceptance = ""
 conf_year = ""
 extra =""
@@ -27,15 +27,14 @@ publication_short = ""
 
 
 # Abstract and optional shortened version.
-abstract = "Recent advances in deep reinforcement learning require a large amount of training data and generally result in representations that are often over specialized to the target task. In this work, we present a methodology to study the underlying potential causes for this specialization. We use the recently proposed projection weighted Canonical Correlation Analysis (PWCCA) to measure the similarity of visual representations learned in the same environment by performing different tasks.<br/>We then leverage our proposed methodology to examine the task dependence of visual representations learned on related but distinct embodied navigation tasks. Surprisingly, we find that slight differences in task have no measurable effect on the visual representation for both SqueezeNet and ResNet architectures. We then empirically demonstrate that visual representations learned on one task can be effectively transferred to a different task."
+abstract = ""
 abstract_short = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
-selected_groups = ["Characterizing Emergent Intelligence"]
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -48,7 +47,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2003.05993"
+url_pdf = "https://arxiv.org/abs/2301.07302"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -72,7 +71,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "representations-teaser.png"
+image = "pirl-nav-teaser.png"
 caption = ""
 
 +++

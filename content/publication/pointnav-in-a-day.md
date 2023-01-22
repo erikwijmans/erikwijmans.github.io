@@ -21,7 +21,7 @@ publication_types = []
 publication = "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
 acceptance = ""
 conf_year = "2022"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

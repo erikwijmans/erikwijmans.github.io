@@ -15,13 +15,13 @@ authors = ["**Erik Wijmans**", "Abhishek Kadian", "Ari Morcos, Stefan Lee, Irfan
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = []
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "International Conference on Learning Representations (ICLR)"
-acceptance = "Top 336 of 2594 submissions = top-13%"
+publication = "International Conference on Learning Representations"
+acceptance = "687 out of 2594 submissions = 26.5%"
 conf_year = "2020"
-publication_short = ""
+publication_short = "ICLR"
 
 # Abstract and optional shortened version.
 

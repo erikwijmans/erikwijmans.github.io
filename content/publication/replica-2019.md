@@ -19,7 +19,7 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "arXiv"
-oral = ""
+extra =""
 publication_short = ""
 
 # Abstract and optional shortened version.

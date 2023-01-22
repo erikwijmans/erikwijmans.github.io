@@ -21,7 +21,7 @@ publication_types = []
 publication = "Neural Information Processing Systems Track on Datasets and Benchmarks"
 acceptance = ""
 conf_year = ""
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

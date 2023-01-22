@@ -1,10 +1,10 @@
 +++
-title = "Analyzing Visual Representations in Embodied Navigation Tasks"
-date = 2020-03-17T19:03:16-04:00
-draft = false
+title = "Emergence of Maps in the Memories of Blind Navigation Agents"
+date = 2023-01-22T12:10:17-05:00
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Erik Wijmans**", "Julian Straub", "Dhruv Batra", "Irfan Essa", "Judy Hoffman", "Ari Morcos"]
+authors = ["**Erik Wijmans**", "Manolis Savva", "Irfan Essa", "Stefan Lee", "Ari Morcos", "Dhruv Batra"]
 
 # Publication type.
 # Legend:
@@ -15,19 +15,19 @@ authors = ["**Erik Wijmans**", "Julian Straub", "Dhruv Batra", "Irfan Essa", "Ju
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = []
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ICLR 2019 Workshop on Task-Agnostic Reinforcement Learning (TARL) and arXiv"
-acceptance = ""
-conf_year = ""
-extra =""
+publication = "International Conference on Learning Representations"
+acceptance = "" #"1558 out of 4900 submissions = 31.8%"
+conf_year = "2023"
+extra = "Notable Top 25%, 389 out of 4900 submissions = top-8%"
 awards = ""
-publication_short = ""
+publication_short = "ICLR"
 
 
 # Abstract and optional shortened version.
-abstract = "Recent advances in deep reinforcement learning require a large amount of training data and generally result in representations that are often over specialized to the target task. In this work, we present a methodology to study the underlying potential causes for this specialization. We use the recently proposed projection weighted Canonical Correlation Analysis (PWCCA) to measure the similarity of visual representations learned in the same environment by performing different tasks.<br/>We then leverage our proposed methodology to examine the task dependence of visual representations learned on related but distinct embodied navigation tasks. Surprisingly, we find that slight differences in task have no measurable effect on the visual representation for both SqueezeNet and ResNet architectures. We then empirically demonstrate that visual representations learned on one task can be effectively transferred to a different task."
+abstract = ""
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -48,11 +48,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2003.05993"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "/publication/eom"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -72,7 +72,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "representations-teaser.png"
+image = "eom-teaser.jpg"
 caption = ""
 
 +++

@@ -43,10 +43,9 @@
       {{ end }}
     </div>
 
-    {{ if .Params.oral }}
+    {{ if .Params.extra }}
       <div class="pub-awards">
-        {{- "Oral Talk, " | markdownify -}}&nbsp; 
-        {{- .Params.oral | markdownify -}}
+        {{- .Params.extra | markdownify -}}
       </div>
     {{- end -}}
 

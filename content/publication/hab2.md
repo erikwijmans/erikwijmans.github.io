@@ -21,7 +21,7 @@ publication_types = []
 publication = "Neural Information Processing Systems (NeurIPS)"
 acceptance = ""
 conf_year = "2021"
-oral = "top 3% of 9122 submissions"
+extra = "Spotlight talk, top 3% of 9122 submissions"
 awards = ""
 publication_short = ""
 

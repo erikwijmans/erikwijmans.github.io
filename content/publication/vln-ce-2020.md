@@ -21,7 +21,7 @@ publication_types = []
 publication = "European Conference on Computer Vision (ECCV)"
 acceptance = "Acceptance: 1361 out of 5025 submissions = 27%"
 conf_year = "2020"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

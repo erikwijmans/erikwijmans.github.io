@@ -21,7 +21,7 @@ publication_types = []
 publication = "Conference on Robot Learning (CoRL)"
 acceptance = "Acceptance: 165 out of 460 submissions = 36%"
 conf_year = "2020"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

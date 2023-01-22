@@ -21,7 +21,7 @@ publication_types = [1]
 publication = "Computer Vision and Pattern Recognition (CVPR)"
 acceptance = "Acceptance: 2067 out of 8161 = 25%"
 conf_year = "2022"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

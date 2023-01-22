@@ -21,7 +21,7 @@ publication_types = [1]
 publication = "Neural Information Processing Systems (NeurIPS)"
 acceptance = "Acceptance: 2665 out of 10,411 submissions = 25.6%"
 conf_year = "2022"
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 

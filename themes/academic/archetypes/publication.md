@@ -21,7 +21,7 @@ publication_types = []
 publication = ""
 acceptance = ""
 conf_year = ""
-oral = ""
+extra =""
 awards = ""
 publication_short = ""
 
@@ -35,6 +35,7 @@ image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = false
+selected_groups = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
