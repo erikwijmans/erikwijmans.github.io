@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</title>
+      <link>https://wijmans.xyz/publication/pirl-nav/</link>
+      <pubDate>Sun, 22 Jan 2023 12:09:57 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/pirl-nav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</title>
       <link>https://wijmans.xyz/publication/ver/</link>
       <pubDate>Sun, 28 Aug 2022 14:53:59 -0400</pubDate>
