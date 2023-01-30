@@ -10,6 +10,11 @@ then
     exit 1;
 fi
 
+echo "Building drafts"
+
+rm -rf dev
+hugo --cleanDestinationDir -D -d "dev"
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
@@ -26,6 +31,12 @@ echo "Generating site"
 hugo
 
 cp -v CNAME public/CNAME
+
+rsync -ri --ignore-existing "dev/" "public"
+
+rm -rf "dev"
+
+exit
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && cd ..
