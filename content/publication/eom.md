@@ -166,7 +166,7 @@ detecting collision. The black dot is where the agent's hidden state is for the 
 cluster throughout a series of actions.
 
 <video height="100%" width="100%" controls autoplay>
-<source src="/files/eom-post/3_collision_neurson_visualization.mp4" type="video/mp4">
+<source src="/files/eom-post/collision-neuron-vis.mp4" type="video/mp4">
 </video>
 
 ## What information does the memory encode about the environment? 
@@ -192,7 +192,7 @@ This videos show a blind agent navigating from source to target and then a probe
 Notice the increase efficiency and reduction in collisions of the probe during the return trip.
 
 <video height="100%" width="100%" controls autoplay>
-<source src="/files/eom-post/6_BlindAgent(S->T)_Probe(T->S).mp4" type="video/mp4">
+<source src="/files/eom-post/probe-example.mp4" type="video/mp4">
 </video>
 
 ## Are maps task-dependent? 
