@@ -36,8 +36,6 @@ rsync -ri --ignore-existing "dev/" "public"
 
 rm -rf "dev"
 
-exit
-
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && cd ..
 git push origin main
