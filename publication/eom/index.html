@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Erik Wijmans">
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Introduction Decades of research into intelligent animal navigation posits that organisms build and maintain inter- nal spatial representations (or maps) of their environment, that enables the organism to determine and follow task-appropriate paths. Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short- cuts they may never have taken before. Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal return trips, though there is some controversy about whether insects like ants and bees are capable of forming maps.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/eom/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#2980b9">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha384-qpNsn9fNAkiBXwcwfxPTn1Ou6UU9P6pYGWQqLRIJOlPsAKOA+8XzN2coCnVnb8Fa" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://wijmans.xyz/index.xml" type="application/rss+xml" title="Erik Wijmans">
+  <link rel="feed" href="https://wijmans.xyz/index.xml" type="application/rss+xml" title="Erik Wijmans">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://wijmans.xyz/publication/eom/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@erikwijmans">
+  <meta property="twitter:creator" content="@erikwijmans">
+  
+  <meta property="og:site_name" content="Erik Wijmans">
+  <meta property="og:url" content="https://wijmans.xyz/publication/eom/">
+  <meta property="og:title" content="Emergence of Maps in the Memories of Blind Navigation Agents | Erik Wijmans">
+  <meta property="og:description" content="Introduction Decades of research into intelligent animal navigation posits that organisms build and maintain inter- nal spatial representations (or maps) of their environment, that enables the organism to determine and follow task-appropriate paths. Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short- cuts they may never have taken before. Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal return trips, though there is some controversy about whether insects like ants and bees are capable of forming maps."><meta property="og:image" content="https://wijmans.xyz/img/eom-teaser.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2023-01-22T12:10:17-05:00">
+  
+  <meta property="article:modified_time" content="2023-01-22T12:10:17-05:00">
+  
+
+  
+
+  <title>Emergence of Maps in the Memories of Blind Navigation Agents | Erik Wijmans</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Erik Wijmans</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Select Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Latest Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#press">
+            
+            <span>Press</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#award">
+            
+            <span>Awards</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+<div class="article-header">
+  <img src="/img/eom-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
+  
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Emergence of Maps in the Memories of Blind Navigation Agents</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      <strong>Erik Wijmans</strong>, Manolis Savva, Irfan Essa, Stefan Lee, Ari Morcos, Dhruv Batra
+      
+    </span>
+    <span class="pull-right">
+      
+
+    </span>
+
+    
+
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">International Conference on Learning Representations</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://wijmans.xyz/publication/eom" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Decades of research into intelligent animal navigation posits that organisms build and maintain inter-
+nal spatial representations (or maps) of their environment, that enables the organism to determine
+and follow task-appropriate paths.
+Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short-
+cuts they may never have taken before.  Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal
+return trips, though there is some controversy about whether insects like
+ants and bees are capable of forming maps.</p>
+
+<p>Analogously, mapping and localization techniques have long played a central role in enabling non-
+biological navigation agents (or robots) to exhibit intelligent behavior.
+More recently, the machine learning community has produced a surprising phenomenon – neural-network models for navigation that curiously
+do not contain any explicit mapping modules but still achieve remarkably high performance For instance, Wijmans et al. (2020) showed that
+a simple ‘pixels-to-actions’ architecture (using a CNN and RNN) can navigate to a given point in
+a novel environment with near-perfect accuracy; Partsey et al. (2022) further generalized this result
+to more realistic sensors and actuators. Reed et al. (2022) showed a similar general purpose architecture (a transformer) can perform a wide variety of embodied tasks, including navigation. The
+mechanisms explaining this ability remain unknown. Understanding them is both of scientific and
+practical importance due to safety considerations involved with deploying such systems.</p>
+
+<p>In this work, we investigate the following question – is mapping an emergent phenomenon? Specifically, do artificial intelligence (AI) agents learn to build internal spatial representations (or ‘mental’
+maps) of their environment as a natural consequence of learning to navigate?</p>
+
+<h1 id="task">Task</h1>
+
+<p>The specific task we study is PointGoal navigation, where an AI agent is
+introduced into a new (unexplored) environment and tasked with navigating to a relative location –
+&lsquo;<em>go 5m north, 2m west relative to start</em>&rsquo;. This is analogous to the direction and distance of foraging
+locations communicated by the waggle dance of honey bees.</p>
+
+<h1 id="agent-input-and-design">Agent input and design</h1>
+
+<p>Unlike animal navigation studies, experiments with AI agents allow us to precisely isolate map-
+ping from alternative mechanisms proposed for animal navigation – the use of visual land-
+marks orientation by the arrangement of stars, gradients of
+olfaction or other senses. We achieve this isolation by judiciously designing
+the agent’s perceptual system and the learning paradigm such that these alternative mechanisms are
+rendered implausible. Our agents are effectively ‘blind’; they possess a minimal perceptual system
+capable of sensing only egomotion, i.e. change in the agent’s location and orientation as the it moves
+– no vision, no audio, no olfactory, no haptic, no magnetic, or any other sensing of any kind. This
+perceptual system is deliberately impoverished to isolate the contribution of memory, and is inspired
+by blind mole rats, who perform localization via path integration and use the Earth’s magnetic field
+as a compass. Further still, our agents are composed of navigation-agnostic,
+generic, and ubiquitous architectural components (fully-connected layers and LSTM-based recurrent neural networks), and our experimental setup provides no inductive bias towards mapping – no
+map-like or spatial structural components in the agent, no mapping supervision, no auxiliary tasks,
+nothing other than a reward for making progress towards a goal.</p>
+
+<h1 id="results">Results</h1>
+
+<p>Surprisingly, even under these deliberately harsh conditions, we find the emergence of map-like
+spatial representations in the agent’s non-spatial unstructured memory, enabling it to not only successfully navigate to the goal but also exhibit intelligent behavior (like taking shortcuts, following
+walls, detecting collisions) similar to aforementioned animal studies, and predict free-space in the
+environment. Essentially, we demonstrate an ‘existence proof’ or an ontogenetic developmental ac-
+count for the emergence of mapping without any previous predisposition. Our results also explain
+the aforementioned surprising finding in recent literature – that ostensibly map-free neural-network
+achieve strong autonomous navigation performance – by demonstrating that these ‘map-free’ systems in fact learn to construct and maintain map-like representations of their environment.</p>
+
+<p>Concretely, we ask and answer following questions:</p>
+
+<h2 id="is-it-possible-to-effectively-navigate-with-just-egomotion-sensing">Is it possible to effectively navigate with just egomotion sensing?</h2>
+
+<p>Yes. We find that our ‘blind’
+agents are highly effective in navigating new environments – reaching the goal with 95.1%$\pm$1.3%
+success rate. And they traverse moderately efficient (though far from optimal) paths, reaching
+62.9%$\pm$1.6% of optimal path efficiency. We stress that these are novel testing environments, the
+agent has not memorized paths within a training environment but has learned efficient navigation
+strategies that generalize to novel environments, such as emergent wall-following behavior.</p>
+
+<h2 id="what-mechanism-explains-this-strong-performance-by-blind-agents">What mechanism explains this strong performance by ‘blind’ agents?</h2>
+
+<p><img src="/files/eom-post/perf-vs-mem-len-post-hoc.jpg" alt="Blind Agent Performance" width="50%"/></p>
+
+<p>Memory.
+We find that
+memoryless agents completely fail at this task, achieving nearly 0% success. More importantly,
+we find that agents with memory utilize information stored over a long temporal and spatial horizon and that collision-detection neurons emerge within this memory. Navigation performance as
+a function of the number of past actions/observations encoded in the agent’s memory does not saturate till one thousand steps (corresponding to the agent traversing 89.1$\pm$0.66 meters), suggest-
+ing that the agent ‘remembers’ a long history of the episode.</p>
+
+<p>The video bellow shows a video of a blind agent navigating (right) and the t-SNE projection of the portion of it&rsquo;s hidden state responsible for
+detecting collision. The black dot is where the agent&rsquo;s hidden state is for the current state. Notice that the hidden state stays within the same
+cluster throughout a series of actions.</p>
+
+<video height="100%" width="100%" controls autoplay>
+<source src="/files/eom-post/collision-neuron-vis.mp4" type="video/mp4">
+</video>
+
+<h2 id="what-information-does-the-memory-encode-about-the-environment">What information does the memory encode about the environment?</h2>
+
+<p><img src="/files/eom-post/occupancy-map-figure-good-only.jpg" alt="Decoded Occupancy Maps" /></p>
+
+<p>Implicit maps. We perform
+an AI rendition of Menzel (1973)’s experiments, where a chimpanzee is carried by a human and
+shown the location of food hidden in the environment. When the animal is set free to collect the
+food, it does not retrace the demonstrator’s steps but takes shortcuts to collect the food faster.
+Analogously, we train a blind agent to navigate from a source location (S) to a target location
+(T). After it has finished navigating, we transplant its constructed episodic memory into a second
+‘probe’-agent (which is also blind). We find that this implanted-memory probe-agent performs
+dramatically better in navigating from S to T (and T to S) than it would without the memory
+transplant. Similar to the chimpanzee, the probe agent takes shortcuts, typically cutting out
+backtracks or excursions that the memory-creator had undertaken as it tried to work its way
+around the obstacles. These experiments provide compelling evidence that blind agents learn to
+build and use implicit map-like representations of their environment solely through learning to
+navigate. Intriguingly further still, we find that surprisingly detailed metric occupancy maps of
+the environment (indicating free-space) can be explicitly decoded from the agent’s memory.</p>
+
+<p>This videos show a blind agent navigating from source to target and then a probe navigating from target to source.
+Notice the increase efficiency and reduction in collisions of the probe during the return trip.</p>
+
+<video height="100%" width="100%" controls autoplay>
+<source src="/files/eom-post/probe-example.mp4" type="video/mp4">
+</video>
+
+<h2 id="are-maps-task-dependent">Are maps task-dependent?</h2>
+
+<p><img src="/files/eom-post/excursion-forgetting.jpg" alt="Excursion Forgetting" width="75%"/></p>
+
+<p>Yes. We find that the emergent maps are a function of the navigation
+goal. Agents &lsquo;forget&rsquo; excursions and detours, <em>i.e.</em> their episodic memory only preserves the
+features of the environment relevant to navigating to their goal. This, in part, explains why
+transplanting episodic memory from one agent to another leads it to take shortcuts – because the
+excursion and detours are simply forgotten.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Overall, our experiments and analyses demonstrate that ‘blind’ agents solve PointGoalNav by
+combining information over long time horizons to build detailed maps of their environment, solely
+through the learning signals imposed by goal-driven navigation. In biological systems, convergent
+evolution of analogous structures that cannot be attributed to a common ancestor (<em>e.g.</em> eyes in
+vertebrates and jellyfish) is often an indicator that the structure is a natural
+response to the ecological niche and selection pressures. Analogously, our results suggest that
+mapping may be a natural solution to the problem of navigation by intelligent embodied agents,
+whether they be biological or artificial. We now describe our findings for each question in detail.</p>
+</div>
+
+    
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

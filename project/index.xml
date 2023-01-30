@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Erik Wijmans</title>
+    <link>https://wijmans.xyz/project/</link>
+    <description>Recent content in Projects on Erik Wijmans</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Wed, 25 Apr 2018 15:57:16 -0400</lastBuildDate>
+    
+	<atom:link href="https://wijmans.xyz/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pgm Final</title>
+      <link>https://wijmans.xyz/project/pgm-final/</link>
+      <pubDate>Wed, 25 Apr 2018 15:57:16 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/project/pgm-final/</guid>
+      <description>In prior active learning work, &amp;hellip;..
+Partially observed bayes net&amp;hellip;.
+Link to final report&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Amodal 3D Bounding Box Prediction</title>
+      <link>https://wijmans.xyz/project/3d-bbox-2017/</link>
+      <pubDate>Mon, 19 Feb 2018 23:24:45 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/project/3d-bbox-2017/</guid>
+      <description>I initially set out to use PointNet/PointNet++ to predict amodal 3D bounding boxes on point-clouds, utilizing the SUN RGB-D 3D dataset. My approach was similar to that of Faster R-CNN. However, I did not want to descritize the search space and therefore attempted to use the points in the point-clouds as anchors for the bounding boxes. This approach ended up being too challenging for the network to easily learn. Frustum PointNet presents a very interesting solution to this problem and leverages the 2D rgb image to descritize the search space.</description>
+    </item>
+    
+  </channel>
+</rss>
