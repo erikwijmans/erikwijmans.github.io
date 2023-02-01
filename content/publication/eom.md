@@ -1,7 +1,7 @@
 +++
 title = "Emergence of Maps in the Memories of Blind Navigation Agents"
 date = 2023-01-22T12:10:17-05:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Erik Wijmans**", "Manolis Savva", "Irfan Essa", "Stefan Lee", "Ari Morcos", "Dhruv Batra"]
@@ -48,7 +48,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://arxiv.org/abs/2301.13261"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
