@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Sun, 28 Aug 2022 14:53:59 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jan 2023 12:10:17 -0500</lastBuildDate>
     
 	<atom:link href="https://wijmans.xyz/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emergence of Maps in the Memories of Blind Navigation Agents</title>
+      <link>https://wijmans.xyz/publication/eom/</link>
+      <pubDate>Sun, 22 Jan 2023 12:10:17 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/eom/</guid>
+      <description>Introduction Decades of research into intelligent animal navigation posits that organisms build and maintain inter- nal spatial representations (or maps) of their environment, that enables the organism to determine and follow task-appropriate paths. Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short- cuts they may never have taken before. Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal return trips, though there is some controversy about whether insects like ants and bees are capable of forming maps.</description>
+    </item>
     
     <item>
       <title>VER: Scaling On-Policy RL Leads to Emergence of Navigation in Embodied Rearrangement</title>

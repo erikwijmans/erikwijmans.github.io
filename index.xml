@@ -11,6 +11,150 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Emergence of Maps in the Memories of Blind Navigation Agents</title>
+      <link>https://wijmans.xyz/publication/eom/</link>
+      <pubDate>Sun, 22 Jan 2023 12:10:17 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/eom/</guid>
+      <description>
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Decades of research into intelligent animal navigation posits that organisms build and maintain inter-
+nal spatial representations (or maps) of their environment, that enables the organism to determine
+and follow task-appropriate paths.
+Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short-
+cuts they may never have taken before.  Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal
+return trips, though there is some controversy about whether insects like
+ants and bees are capable of forming maps.&lt;/p&gt;
+
+&lt;p&gt;Analogously, mapping and localization techniques have long played a central role in enabling non-
+biological navigation agents (or robots) to exhibit intelligent behavior.
+More recently, the machine learning community has produced a surprising phenomenon – neural-network models for navigation that curiously
+do not contain any explicit mapping modules but still achieve remarkably high performance For instance, Wijmans et al. (2020) showed that
+a simple ‘pixels-to-actions’ architecture (using a CNN and RNN) can navigate to a given point in
+a novel environment with near-perfect accuracy; Partsey et al. (2022) further generalized this result
+to more realistic sensors and actuators. Reed et al. (2022) showed a similar general purpose architecture (a transformer) can perform a wide variety of embodied tasks, including navigation. The
+mechanisms explaining this ability remain unknown. Understanding them is both of scientific and
+practical importance due to safety considerations involved with deploying such systems.&lt;/p&gt;
+
+&lt;p&gt;In this work, we investigate the following question – is mapping an emergent phenomenon? Specifically, do artificial intelligence (AI) agents learn to build internal spatial representations (or ‘mental’
+maps) of their environment as a natural consequence of learning to navigate?&lt;/p&gt;
+
+&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;
+
+&lt;p&gt;The specific task we study is PointGoal navigation, where an AI agent is
+introduced into a new (unexplored) environment and tasked with navigating to a relative location –
+&amp;lsquo;&lt;em&gt;go 5m north, 2m west relative to start&lt;/em&gt;&amp;rsquo;. This is analogous to the direction and distance of foraging
+locations communicated by the waggle dance of honey bees.&lt;/p&gt;
+
+&lt;h1 id=&#34;agent-input-and-design&#34;&gt;Agent input and design&lt;/h1&gt;
+
+&lt;p&gt;Unlike animal navigation studies, experiments with AI agents allow us to precisely isolate map-
+ping from alternative mechanisms proposed for animal navigation – the use of visual land-
+marks orientation by the arrangement of stars, gradients of
+olfaction or other senses. We achieve this isolation by judiciously designing
+the agent’s perceptual system and the learning paradigm such that these alternative mechanisms are
+rendered implausible. Our agents are effectively ‘blind’; they possess a minimal perceptual system
+capable of sensing only egomotion, i.e. change in the agent’s location and orientation as the it moves
+– no vision, no audio, no olfactory, no haptic, no magnetic, or any other sensing of any kind. This
+perceptual system is deliberately impoverished to isolate the contribution of memory, and is inspired
+by blind mole rats, who perform localization via path integration and use the Earth’s magnetic field
+as a compass. Further still, our agents are composed of navigation-agnostic,
+generic, and ubiquitous architectural components (fully-connected layers and LSTM-based recurrent neural networks), and our experimental setup provides no inductive bias towards mapping – no
+map-like or spatial structural components in the agent, no mapping supervision, no auxiliary tasks,
+nothing other than a reward for making progress towards a goal.&lt;/p&gt;
+
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;Surprisingly, even under these deliberately harsh conditions, we find the emergence of map-like
+spatial representations in the agent’s non-spatial unstructured memory, enabling it to not only successfully navigate to the goal but also exhibit intelligent behavior (like taking shortcuts, following
+walls, detecting collisions) similar to aforementioned animal studies, and predict free-space in the
+environment. Essentially, we demonstrate an ‘existence proof’ or an ontogenetic developmental ac-
+count for the emergence of mapping without any previous predisposition. Our results also explain
+the aforementioned surprising finding in recent literature – that ostensibly map-free neural-network
+achieve strong autonomous navigation performance – by demonstrating that these ‘map-free’ systems in fact learn to construct and maintain map-like representations of their environment.&lt;/p&gt;
+
+&lt;p&gt;Concretely, we ask and answer following questions:&lt;/p&gt;
+
+&lt;h2 id=&#34;is-it-possible-to-effectively-navigate-with-just-egomotion-sensing&#34;&gt;Is it possible to effectively navigate with just egomotion sensing?&lt;/h2&gt;
+
+&lt;p&gt;Yes. We find that our ‘blind’
+agents are highly effective in navigating new environments – reaching the goal with 95.1%$\pm$1.3%
+success rate. And they traverse moderately efficient (though far from optimal) paths, reaching
+62.9%$\pm$1.6% of optimal path efficiency. We stress that these are novel testing environments, the
+agent has not memorized paths within a training environment but has learned efficient navigation
+strategies that generalize to novel environments, such as emergent wall-following behavior.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-mechanism-explains-this-strong-performance-by-blind-agents&#34;&gt;What mechanism explains this strong performance by ‘blind’ agents?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wijmans.xyz/files/eom-post/perf-vs-mem-len-post-hoc.jpg&#34; alt=&#34;Blind Agent Performance&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Memory.
+We find that
+memoryless agents completely fail at this task, achieving nearly 0% success. More importantly,
+we find that agents with memory utilize information stored over a long temporal and spatial horizon and that collision-detection neurons emerge within this memory. Navigation performance as
+a function of the number of past actions/observations encoded in the agent’s memory does not saturate till one thousand steps (corresponding to the agent traversing 89.1$\pm$0.66 meters), suggest-
+ing that the agent ‘remembers’ a long history of the episode.&lt;/p&gt;
+
+&lt;p&gt;The video bellow shows a video of a blind agent navigating (right) and the t-SNE projection of the portion of it&amp;rsquo;s hidden state responsible for
+detecting collision. The black dot is where the agent&amp;rsquo;s hidden state is for the current state. Notice that the hidden state stays within the same
+cluster throughout a series of actions.&lt;/p&gt;
+
+&lt;video height=&#34;100%&#34; width=&#34;100%&#34; controls autoplay&gt;
+&lt;source src=&#34;https://wijmans.xyz/files/eom-post/collision-neuron-vis.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&#34;what-information-does-the-memory-encode-about-the-environment&#34;&gt;What information does the memory encode about the environment?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wijmans.xyz/files/eom-post/occupancy-map-figure-good-only.jpg&#34; alt=&#34;Decoded Occupancy Maps&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Implicit maps. We perform
+an AI rendition of Menzel (1973)’s experiments, where a chimpanzee is carried by a human and
+shown the location of food hidden in the environment. When the animal is set free to collect the
+food, it does not retrace the demonstrator’s steps but takes shortcuts to collect the food faster.
+Analogously, we train a blind agent to navigate from a source location (S) to a target location
+(T). After it has finished navigating, we transplant its constructed episodic memory into a second
+‘probe’-agent (which is also blind). We find that this implanted-memory probe-agent performs
+dramatically better in navigating from S to T (and T to S) than it would without the memory
+transplant. Similar to the chimpanzee, the probe agent takes shortcuts, typically cutting out
+backtracks or excursions that the memory-creator had undertaken as it tried to work its way
+around the obstacles. These experiments provide compelling evidence that blind agents learn to
+build and use implicit map-like representations of their environment solely through learning to
+navigate. Intriguingly further still, we find that surprisingly detailed metric occupancy maps of
+the environment (indicating free-space) can be explicitly decoded from the agent’s memory.&lt;/p&gt;
+
+&lt;p&gt;This videos show a blind agent navigating from source to target and then a probe navigating from target to source.
+Notice the increase efficiency and reduction in collisions of the probe during the return trip.&lt;/p&gt;
+
+&lt;video height=&#34;100%&#34; width=&#34;100%&#34; controls autoplay&gt;
+&lt;source src=&#34;https://wijmans.xyz/files/eom-post/probe-example.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&#34;are-maps-task-dependent&#34;&gt;Are maps task-dependent?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wijmans.xyz/files/eom-post/excursion-forgetting.jpg&#34; alt=&#34;Excursion Forgetting&#34; width=&#34;75%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes. We find that the emergent maps are a function of the navigation
+goal. Agents &amp;lsquo;forget&amp;rsquo; excursions and detours, &lt;em&gt;i.e.&lt;/em&gt; their episodic memory only preserves the
+features of the environment relevant to navigating to their goal. This, in part, explains why
+transplanting episodic memory from one agent to another leads it to take shortcuts – because the
+excursion and detours are simply forgotten.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Overall, our experiments and analyses demonstrate that ‘blind’ agents solve PointGoalNav by
+combining information over long time horizons to build detailed maps of their environment, solely
+through the learning signals imposed by goal-driven navigation. In biological systems, convergent
+evolution of analogous structures that cannot be attributed to a common ancestor (&lt;em&gt;e.g.&lt;/em&gt; eyes in
+vertebrates and jellyfish) is often an indicator that the structure is a natural
+response to the ecological niche and selection pressures. Analogously, our results suggest that
+mapping may be a natural solution to the problem of navigation by intelligent embodied agents,
+whether they be biological or artificial. We now describe our findings for each question in detail.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</title>
       <link>https://wijmans.xyz/publication/pirl-nav/</link>
       <pubDate>Sun, 22 Jan 2023 12:09:57 -0500</pubDate>
@@ -267,15 +411,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Wed, 30 Jun 2021 11:13:33 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/thda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Megaverse: Simulating Embodied Agents at One Million Experiences per Second</title>
-      <link>https://wijmans.xyz/publication/megaverse/</link>
-      <pubDate>Wed, 30 Jun 2021 11:13:16 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/megaverse/</guid>
       <description></description>
     </item>
     

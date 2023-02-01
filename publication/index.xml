@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Emergence of Maps in the Memories of Blind Navigation Agents</title>
+      <link>https://wijmans.xyz/publication/eom/</link>
+      <pubDate>Sun, 22 Jan 2023 12:10:17 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/eom/</guid>
+      <description>Introduction Decades of research into intelligent animal navigation posits that organisms build and maintain inter- nal spatial representations (or maps) of their environment, that enables the organism to determine and follow task-appropriate paths. Hamsters, wolves, chimpanzees, and bats leverage prior exploration to determine and follow short- cuts they may never have taken before. Even blind mole rats and animals rendered situationally-blind in dark environments demonstrate shortcut behaviors. Ants forage for food along meandering paths but take near-optimal return trips, though there is some controversy about whether insects like ants and bees are capable of forming maps.</description>
+    </item>
+    
+    <item>
       <title>PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</title>
       <link>https://wijmans.xyz/publication/pirl-nav/</link>
       <pubDate>Sun, 22 Jan 2023 12:09:57 -0500</pubDate>
