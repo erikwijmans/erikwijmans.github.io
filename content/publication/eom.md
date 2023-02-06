@@ -21,7 +21,7 @@ publication_types = ["1"]
 publication = "International Conference on Learning Representations"
 acceptance = "" #"1558 out of 4900 submissions = 31.8%"
 conf_year = "2023"
-extra = "Notable Top 25%, 389 out of 4900 submissions = top-8%"
+extra = "Notable Top 5%, 91 out of 4900 submissions = top-1.8%"
 awards = ""
 publication_short = "ICLR"
 
