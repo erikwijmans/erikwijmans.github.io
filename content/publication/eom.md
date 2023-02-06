@@ -18,12 +18,12 @@ authors = ["**Erik Wijmans**", "Manolis Savva", "Irfan Essa", "Stefan Lee", "Ari
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "International Conference on Learning Representations"
-acceptance = "" #"1558 out of 4900 submissions = 31.8%"
+publication = "International Conference on Learning Representations (ICLR)"
+acceptance = "" 
 conf_year = "2023"
 extra = "Notable Top 5%, 91 out of 4900 submissions = top-1.8%"
 awards = ""
-publication_short = "ICLR"
+publication_short = ""
 
 
 # Abstract and optional shortened version.
