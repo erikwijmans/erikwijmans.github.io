@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Eom New Scientist</title>
+      <link>https://wijmans.xyz/press/eom-new-scientist/</link>
+      <pubDate>Tue, 14 Mar 2023 17:11:30 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/press/eom-new-scientist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sigma Xi Best PhD Thesis Award, 2023</title>
+      <link>https://wijmans.xyz/award/sigma-xi-thesis-2023/</link>
+      <pubDate>Tue, 14 Mar 2023 16:59:52 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/award/sigma-xi-thesis-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Emergence of Maps in the Memories of Blind Navigation Agents</title>
       <link>https://wijmans.xyz/publication/eom/</link>
       <pubDate>Sun, 22 Jan 2023 12:10:17 -0500</pubDate>
@@ -393,24 +411,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Wed, 30 Jun 2021 11:13:40 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/hab2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Auxiliary Tasks and Exploration Enable ObjectNav</title>
-      <link>https://wijmans.xyz/publication/aux-tasks-obj-nav/</link>
-      <pubDate>Wed, 30 Jun 2021 11:13:34 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/aux-tasks-obj-nav/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>THDA: Treasure Hunt Data Augmentation for Semantic Navigation</title>
-      <link>https://wijmans.xyz/publication/thda/</link>
-      <pubDate>Wed, 30 Jun 2021 11:13:33 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/thda/</guid>
       <description></description>
     </item>
     
