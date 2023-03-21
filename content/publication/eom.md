@@ -22,7 +22,7 @@ publication = "International Conference on Learning Representations (ICLR)"
 acceptance = "" 
 conf_year = "2023"
 extra = "Notable Top-5% (Oral), 91 out of 4900 submissions = top-1.8% of submitted papers"
-awards = ""
+awards = "Outstanding Paper Award, 4 out of 4900 submissions = top-0.08%"
 publication_short = ""
 
 
