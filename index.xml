@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Outstanding Paper Award, International Conference on Learning Representations (ICLR), 2023</title>
+      <link>https://wijmans.xyz/award/eom-best-paper/</link>
+      <pubDate>Tue, 21 Mar 2023 13:18:39 -0400</pubDate>
+      
+      <guid>https://wijmans.xyz/award/eom-best-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Eom New Scientist</title>
       <link>https://wijmans.xyz/press/eom-new-scientist/</link>
       <pubDate>Tue, 14 Mar 2023 17:11:30 -0400</pubDate>
@@ -402,15 +411,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Wed, 30 Jun 2021 11:46:43 -0400</pubDate>
       
       <guid>https://wijmans.xyz/press/hab2-fb-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hab2 Cnn</title>
-      <link>https://wijmans.xyz/press/hab2-cnet/</link>
-      <pubDate>Wed, 30 Jun 2021 11:44:01 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/press/hab2-cnet/</guid>
       <description></description>
     </item>
     
