@@ -50,7 +50,7 @@ tags = []
 # Links (optional).
 url_pdf = "http://arxiv.org/abs/2301.13261"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/erikwijmans/emergence-of-maps"
 url_dataset = ""
 url_project = "/publication/eom"
 url_slides = ""
