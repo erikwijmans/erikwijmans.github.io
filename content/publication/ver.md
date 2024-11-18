@@ -35,7 +35,7 @@ image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
-selected_groups = ["Large-scale Reinforcement Learning", "Characterizing Emergent Intelligence"]
+selected_groups = ["Large-scale Machine Learning", "Characterizing Emergent Intelligence"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

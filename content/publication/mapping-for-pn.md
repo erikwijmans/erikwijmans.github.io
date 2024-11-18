@@ -34,7 +34,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 selected_groups = ["Navigation, Sim2Real, and Robotics"]
 
 # Projects (optional).
