@@ -18,10 +18,10 @@
       
     
   
-  <meta name="description" content="">
+  <meta name="description" content="As language models grow ever larger, so do their vocabularies. This has shifted the memory footprint of LLMs during training disproportionately to one single layer: the cross-entropy in the loss computation. Cross-entropy builds up a logit matrix with entries for each pair of input tokens and vocabulary items and, for small models, consumes an order of magnitude more memory than the rest of the LLM combined. We propose Cut Cross-Entropy (CCE), a method that computes the cross-entropy loss without materializing the logits for all tokens into global memory. Rather, CCE only computes the logit for the correct token and evaluates the log-sum-exp over all logits on the fly. We implement a custom kernel that performs the matrix multiplications and the log-sum-exp reduction over the vocabulary in flash memory, making global memory consumption for the cross-entropy computation negligible. This has a dramatic effect. Taking the Gemma 2 (2B) model as an example, CCE reduces the memory footprint of the loss computation from 24 GB to 1 MB, and the total training-time memory consumption of the classifier head from 28 GB to 1 GB. To improve the throughput of CCE, we leverage the inherent sparsity of softmax and propose to skip elements of the gradient computation that have a negligible (i.e., below numerical precision) contribution to the gradient. Experiments demonstrate that the dramatic reduction in memory consumption is accomplished without sacrificing training speed or convergence.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/award/sigma-xi-thesis-2023/">
+  <link rel="alternate" hreflang="en-us" href="https://wijmans.xyz/publication/cce/">
 
   
 
@@ -37,13 +37,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -70,7 +63,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://wijmans.xyz/award/sigma-xi-thesis-2023/">
+  <link rel="canonical" href="https://wijmans.xyz/publication/cce/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -78,19 +71,19 @@
   <meta property="twitter:creator" content="@erikwijmans">
   
   <meta property="og:site_name" content="Erik Wijmans">
-  <meta property="og:url" content="https://wijmans.xyz/award/sigma-xi-thesis-2023/">
-  <meta property="og:title" content="Sigma Xi Best PhD Thesis Award, 2023 | Erik Wijmans">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://wijmans.xyz/publication/cce/">
+  <meta property="og:title" content="Cut Your Losses in Large-Vocabulary Language Models | Erik Wijmans">
+  <meta property="og:description" content="As language models grow ever larger, so do their vocabularies. This has shifted the memory footprint of LLMs during training disproportionately to one single layer: the cross-entropy in the loss computation. Cross-entropy builds up a logit matrix with entries for each pair of input tokens and vocabulary items and, for small models, consumes an order of magnitude more memory than the rest of the LLM combined. We propose Cut Cross-Entropy (CCE), a method that computes the cross-entropy loss without materializing the logits for all tokens into global memory. Rather, CCE only computes the logit for the correct token and evaluates the log-sum-exp over all logits on the fly. We implement a custom kernel that performs the matrix multiplications and the log-sum-exp reduction over the vocabulary in flash memory, making global memory consumption for the cross-entropy computation negligible. This has a dramatic effect. Taking the Gemma 2 (2B) model as an example, CCE reduces the memory footprint of the loss computation from 24 GB to 1 MB, and the total training-time memory consumption of the classifier head from 28 GB to 1 GB. To improve the throughput of CCE, we leverage the inherent sparsity of softmax and propose to skip elements of the gradient computation that have a negligible (i.e., below numerical precision) contribution to the gradient. Experiments demonstrate that the dramatic reduction in memory consumption is accomplished without sacrificing training speed or convergence."><meta property="og:image" content="https://wijmans.xyz/img/cce-teaser.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2023-03-14T16:59:52-04:00">
+  <meta property="article:published_time" content="2024-11-17T19:21:40-05:00">
   
-  <meta property="article:modified_time" content="2023-03-14T16:59:52-04:00">
-  
-
+  <meta property="article:modified_time" content="2024-11-17T19:21:40-05:00">
   
 
-  <title>Sigma Xi Best PhD Thesis Award, 2023 | Erik Wijmans</title>
+  
+
+  <title>Cut Your Losses in Large-Vocabulary Language Models | Erik Wijmans</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -242,61 +235,106 @@
   </div>
 </nav>
 
-
-<article class="article" itemscope itemtype="http://schema.org/Article">
-
-  
-
-
-  <div class="article-container">
-    <h1 itemprop="name">Sigma Xi Best PhD Thesis Award, 2023</h1>
-
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2023-03-14 16:59:52 -0400 EDT" itemprop="datePublished dateModified">
-      Mar 14, 2023
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Erik Wijmans">
-  </span>
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-
+<div class="article-header">
+  <img src="/img/cce-teaser.jpg" class="article-banner" itemprop="image" style="max-width: 40%; height: auto; margin-left: auto; margin-right: auto;">
   
-  
-
-  
-
-  
-  
-
-  
-
 </div>
 
 
-    <div class="article-style" itemprop="articleBody">
+
+  <div class="article-container">
+    <h1 itemprop="name">Cut Your Losses in Large-Vocabulary Language Models</h1>
+    <span class="pub-authors" itemprop="author">
       
+      Erik Wijmans, Brody Huval, Alexander Hertzberg, Vladlen Koltun, Philipp Krähenbühl
+      
+    </span>
+    <span class="pull-right">
+      
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">As language models grow ever larger, so do their vocabularies. This has shifted the memory footprint of LLMs during training disproportionately to one single layer: the cross-entropy in the loss computation. Cross-entropy builds up a logit matrix with entries for each pair of input tokens and vocabulary items and, for small models, consumes an order of magnitude more memory than the rest of the LLM combined. We propose Cut Cross-Entropy (CCE), a method that computes the cross-entropy loss without materializing the logits for all tokens into global memory. Rather, CCE only computes the logit for the correct token and evaluates the log-sum-exp over all logits on the fly. We implement a custom kernel that performs the matrix multiplications and the log-sum-exp reduction over the vocabulary in flash memory, making global memory consumption for the cross-entropy computation negligible. This has a dramatic effect. Taking the Gemma 2 (2B) model as an example, CCE reduces the memory footprint of the loss computation from 24 GB to 1 MB, and the total training-time memory consumption of the classifier head from 28 GB to 1 GB. To improve the throughput of CCE, we leverage the inherent sparsity of softmax and propose to skip elements of the gradient computation that have a negligible (i.e., below numerical precision) contribution to the gradient. Experiments demonstrate that the dramatic reduction in memory consumption is accomplished without sacrificing training speed or convergence.</p>
+    
+
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">arXiv</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
     </div>
+    <div class="visible-xs space-below"></div>
+    
+
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2411.09009" target="_blank" rel="noopener">
+  Paper
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
 
-    
-    
 
-    
-
-    
 
 
   </div>
-</article>
+</div>
+
+
 
 <footer class="site-footer">
   <div class="container">
@@ -363,17 +401,6 @@
     
 
     
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
     
 
     
