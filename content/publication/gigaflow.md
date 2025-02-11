@@ -1,10 +1,10 @@
 +++
-title = "PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav"
-date = 2023-01-22T12:09:57-05:00
+title = "Robust Autonomy Emerges from Self-Play"
+date = 2025-02-11T16:02:37-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ram Ramrakhya", "Dhruv Batra", "**Erik Wijmans**", "Abhishek Das"]
+authors = ["Marco Cusumano-Towner&ast;", "David Hafner&ast;", "Alex Hertzberg&ast;", "Brody Huval&ast;", "Aleksei Petrenko&ast;", "Eugene Vinitsky&ast;", "**Erik Wijmans**&ast;", "Taylor Killian", "Stuart Bowers", "Ozan Sener", "Philipp Krähenbühl", "Vladlen Koltun"]
 
 # Publication type.
 # Legend:
@@ -18,9 +18,9 @@ authors = ["Ram Ramrakhya", "Dhruv Batra", "**Erik Wijmans**", "Abhishek Das"]
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "Computer Vision and Pattern Recognition (CVPR)"
-acceptance = "Acceptance: 2359 out of 9,155 submissions = 25.8%"
-conf_year = "2023"
+publication = "arXiv"
+acceptance = ""
+conf_year = "2025"
 extra =""
 awards = ""
 publication_short = ""
@@ -34,8 +34,8 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
-selected_groups = ["Navigation, Sim2Real, and Robotics"]
+selected = true
+selected_groups = ["Large-scale Machine Learning", "Characterizing Emergent Intelligence"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -48,7 +48,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2301.07302"
+url_pdf = "https://arxiv.org/abs/2502.03349"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -72,7 +72,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "pirl-nav-teaser.png"
+image = "gigaflow-teaser.jpg"
 caption = ""
 
 +++

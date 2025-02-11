@@ -18,9 +18,9 @@ authors = ["Santhosh Kumar Ramakrishnan", "**Erik Wijmans**", "Philipp Kr√§henb√
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "International Conference on Learning Representations (ICLR)"
 acceptance = ""
-conf_year = "2024"
+conf_year = "2025"
 extra =""
 awards = ""
 publication_short = ""

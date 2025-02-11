@@ -18,10 +18,10 @@ authors = ["Erik Wijmans", "Brody Huval", "Alexander Hertzberg", "Vladlen Koltun
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
+publication = "International Conference on Learning Representations (ICLR)"
 acceptance = ""
-conf_year = "2024"
-extra =""
+conf_year = "2025"
+extra = "Oral talk, 207 out of 11,500 submissions = top-1.8% of submitted papers"
 awards = ""
 publication_short = ""
 
