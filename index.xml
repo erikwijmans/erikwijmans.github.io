@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Robust Autonomy Emerges from Self-Play</title>
+      <link>https://wijmans.xyz/publication/gigaflow/</link>
+      <pubDate>Tue, 11 Feb 2025 16:02:37 -0500</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/gigaflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cut Your Losses in Large-Vocabulary Language Models</title>
       <link>https://wijmans.xyz/publication/cce/</link>
       <pubDate>Sun, 17 Nov 2024 19:21:40 -0500</pubDate>
@@ -402,15 +411,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
       <pubDate>Sat, 27 Aug 2022 15:05:01 -0400</pubDate>
       
       <guid>https://wijmans.xyz/publication/mapping-for-pn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI</title>
-      <link>https://wijmans.xyz/publication/hm3d/</link>
-      <pubDate>Tue, 05 Oct 2021 18:28:47 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/hm3d/</guid>
       <description></description>
     </item>
     
