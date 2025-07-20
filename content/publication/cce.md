@@ -19,9 +19,9 @@ publication_types = []
 
 # Publication name and optional abbreviated version.
 publication = "International Conference on Learning Representations (ICLR)"
-acceptance = ""
+acceptance = "Acceptance: 3,704 out of 11,672 submissions = 31.7%"
 conf_year = "2025"
-extra = "Oral talk, 207 out of 11,500 submissions = top-1.8% of submitted papers"
+extra = "Oral talk, 207 out of 11,672 submissions = top-1.8% of submitted papers"
 awards = ""
 publication_short = ""
 

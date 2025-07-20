@@ -42,11 +42,11 @@ I am a research scientist at Apple working with [Vladlen Koltun][VK].
 I received my PhD in computer science from the Georgia Institute of Technology in 2022. I was advised by
 [Irfan Essa][IS] and [Dhruv Batra][DB] and had the
 pleasure of working closely with
-[Devi Parikh][DP].  My research interests are
-primarily focused on computer vision and its applications to artificial intelligence.
-My long-term research goal is to develop fundamental techniques, algorithms, 
+[Devi Parikh][DP].  My research interests are focused
+on reinforcement learning, scaling systems,
+and theirs applications toward the emergence of intelligence.
 and large-scale systems for robotic assistants.
-My work focuses on training virtual robots (embodied agents) in simulation and transferring the skills learned to reality
+My work focuses on training agents in simulated worlds and transferring the skills learned to reality
 to overcome the challenges of real-world training (its slow, and expensive).
 
 

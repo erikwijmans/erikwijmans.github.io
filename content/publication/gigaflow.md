@@ -18,8 +18,8 @@ authors = ["Marco Cusumano-Towner&ast;", "David Hafner&ast;", "Alex Hertzberg&as
 publication_types = []
 
 # Publication name and optional abbreviated version.
-publication = "arXiv"
-acceptance = ""
+publication = "International Conference on Machine Learning (ICML)"
+acceptance = "Acceptance: 3,260 out of 12,107 submission = 26.9%"
 conf_year = "2025"
 extra =""
 awards = ""
