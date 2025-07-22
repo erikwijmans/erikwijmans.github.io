@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>An Extensible, Data-Oriented Architecture for High-Performance, Many-World Simulation</title>
+      <link>https://wijmans.xyz/publication/madrona/</link>
+      <pubDate>Wed, 26 Jul 2023 10:55:03 -0700</pubDate>
+      
+      <guid>https://wijmans.xyz/publication/madrona/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Outstanding Paper Award, International Conference on Learning Representations (ICLR), 2023</title>
       <link>https://wijmans.xyz/award/eom-best-paper/</link>
       <pubDate>Tue, 21 Mar 2023 13:18:39 -0400</pubDate>
@@ -403,15 +412,6 @@ Prepare Groceries and Set Table, which both require interaction with articulated
 &lt;source src=&#34;https://wijmans.xyz/files/ver-post/2-tp-srl.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Is Mapping Necessary for Realistic PointGoal Navigation?</title>
-      <link>https://wijmans.xyz/publication/mapping-for-pn/</link>
-      <pubDate>Sat, 27 Aug 2022 15:05:01 -0400</pubDate>
-      
-      <guid>https://wijmans.xyz/publication/mapping-for-pn/</guid>
-      <description></description>
     </item>
     
   </channel>
