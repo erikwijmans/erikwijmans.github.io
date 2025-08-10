@@ -35,7 +35,7 @@ image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
-selected_groups = ["Characterizing Emergent Intelligence"]
+selected_groups = ["1) Characterizing Emergent Intelligence"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
