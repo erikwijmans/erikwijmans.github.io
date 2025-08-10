@@ -4,7 +4,7 @@ date = 2024-11-17T19:21:40-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Erik Wijmans", "Brody Huval", "Alexander Hertzberg", "Vladlen Koltun", "Philipp Krähenbühl"]
+authors = ["*Erik Wijmans*", "Brody Huval", "Alexander Hertzberg", "Vladlen Koltun", "Philipp Krähenbühl"]
 
 # Publication type.
 # Legend:
@@ -50,7 +50,7 @@ tags = []
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/2411.09009"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/apple/ml-cross-entropy"
 url_dataset = ""
 url_project = ""
 url_slides = ""
