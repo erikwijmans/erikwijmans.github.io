@@ -1,5 +1,5 @@
 +++
-title = "2022 AAAI/ACM SIGAI Doctoral Dissertation Award (Co-Recipient)"
+title = "2022 AAAI/ACM SIGAI Doctoral Dissertation Award (1 of 2 recipients)"
 date = 2025-09-17T15:05:07-07:00
 draft = false
 
