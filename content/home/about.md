@@ -38,14 +38,14 @@ weight = 5
 
 # About Me
 
-I am a research scientist at Apple working with [Vladlen Koltun][VK].
+I am an AI research working at Thinking Machines. Before that,
+I was a research scientist at Apple working with [Vladlen Koltun][VK].
 I received my PhD in computer science from the Georgia Institute of Technology in 2022. I was advised by
 [Irfan Essa][IS] and [Dhruv Batra][DB] and had the
 pleasure of working closely with
 [Devi Parikh][DP].
-My research interests are focused on reinforcement learning, scaling systems, and their applications toward the emergence of intelligence. 
+My research interests are focused on reinforcement learning, scaling systems, and their applications toward the emergence of intelligence.
 My work focuses on training agents in simulated worlds and transferring the skills learned to reality.
-
 
 In the summer of 2020, I was an intern at Intel working with [Vladlen Koltun][VK].
 In the summer of 2019, I was an
@@ -60,10 +60,7 @@ worked with [Yasu Furukawa][YF] (now at SFU).  I also spent a summer
 working with [Yinzhi Cao][YC] (now at JHU)
 at Lehigh University.
 
-
-During my PhD, I had the pleasure of mentoring two students, [Joel Ye][JY] (MS@GT -> CMU PhD Student) and [Guillermo Nicolas Grande][NG] (MS@GT -> Microsoft), in research projects.
-
-
+During my PhD, I had the pleasure of mentoring two students, [Joel Ye][JY] (MS@GT -> CMU PhD Student) and [Guillermo Nicolas Grande][NG] (MS@GT -> Microsoft).
 
 [IS]: http://prof.irfanessa.com
 [DB]: https://www.cc.gatech.edu/~dbatra/
